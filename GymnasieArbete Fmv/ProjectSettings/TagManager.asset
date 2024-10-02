@@ -33,11 +33,29 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - NotRendered
+  - MasterOnly
   - 
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Video
+    uniqueID: 6
+    locked: 0
+  - name: DialogChoices
+    uniqueID: 11
+    locked: 0
+  - name: AboveVideo
+    uniqueID: 16
+    locked: 0
+  - name: FadeOverlay
+    uniqueID: 21
+    locked: 0
+  - name: PauseMenu
+    uniqueID: 26
+    locked: 0
+  - name: AbovePauseMenu
+    uniqueID: 31
     locked: 0

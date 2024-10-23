@@ -23,6 +23,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 164ccd8c3b9e8c4408f79f1ce42680fb, type: 2}
   - {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
   - {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
+  - {fileID: 11400000, guid: 96421440e87ea614fb808f9fd0af89d4, type: 2}
   VariableNames:
   - RandomBoolVar
   - SwitchToDialogNode
@@ -34,4 +35,5 @@ MonoBehaviour:
   - S3_3_visited
   - SeenSong1
   - SeenSong2
+  - 1_Test1_visited
   Manual: 0

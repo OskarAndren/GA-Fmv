@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 3
+    NodeIdAutoIncrement: 4
     Name: Testing
     FirstNode: 0
     Nodes:
@@ -497,7 +497,7 @@ MonoBehaviour:
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 3
+  - NodeIdAutoIncrement: 4
     Name: Testing
     FirstNode: 0
     Nodes:

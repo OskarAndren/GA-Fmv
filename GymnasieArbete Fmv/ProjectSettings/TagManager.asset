@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemies
+  - Spikes
+  - Coin
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -11,17 +15,17 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Climb
+  - Background
+  - Enemies
+  - Player
+  - Bullet
+  - Coin
+  - Spikes
+  - Bird
+  - Bird Stopper
+  - Moving Platform
   - 
   - 
   - 
@@ -58,4 +62,37 @@ TagManager:
     locked: 0
   - name: AbovePauseMenu
     uniqueID: 31
+    locked: 0
+  - name: Background
+    uniqueID: 3728275367
+    locked: 0
+  - name: Climb
+    uniqueID: 3149628729
+    locked: 0
+  - name: Jumppad
+    uniqueID: 2925229867
+    locked: 0
+  - name: Coin
+    uniqueID: 3570688233
+    locked: 0
+  - name: Spikes
+    uniqueID: 3870650487
+    locked: 0
+  - name: Enemies
+    uniqueID: 3453680501
+    locked: 0
+  - name: Bullet
+    uniqueID: 1177840213
+    locked: 0
+  - name: Karl-Gustav
+    uniqueID: 194461777
+    locked: 0
+  - name: Water
+    uniqueID: 4214530493
+    locked: 0
+  - name: MovingPlatforms
+    uniqueID: 3664571049
+    locked: 0
+  - name: Platformd
+    uniqueID: 3451832023
     locked: 0

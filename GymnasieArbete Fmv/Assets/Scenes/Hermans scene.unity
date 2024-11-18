@@ -157,7 +157,7 @@ MonoBehaviour:
     FirstNode: 0
     Nodes:
     - ID: 0
-      ReadableID: Start
+      ReadableID: 
       Rect:
         serializedVersion: 2
         x: 150
@@ -165,56 +165,6 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 7
-      Connections: 03000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 3
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 310
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 04000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 0c267be2218a5014f85826fde0bb6be5, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 4
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 470
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
       Connections: 
       Text: 
       AnswerOrder: 0
@@ -226,7 +176,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -238,7 +188,7 @@ MonoBehaviour:
     FirstNode: 0
     Nodes:
     - ID: 0
-      ReadableID: Start
+      ReadableID: 
       Rect:
         serializedVersion: 2
         x: 150
@@ -246,56 +196,6 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 7
-      Connections: 03000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 3
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 310
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 04000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 0c267be2218a5014f85826fde0bb6be5, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 4
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 470
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
       Connections: 
       Text: 
       AnswerOrder: 0
@@ -307,7 +207,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}

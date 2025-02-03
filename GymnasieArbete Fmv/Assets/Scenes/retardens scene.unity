@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 9
+    NodeIdAutoIncrement: 11
     Name: Test
     FirstNode: 0
     Nodes:
@@ -390,7 +390,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 7
-      Connections: 03000000
+      Connections: 09000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -406,112 +406,12 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 3
+    - ID: 9
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 310
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 04000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: d03f3be715754ee4e9102305faacb6a7, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 4
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 470
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 05000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: eba4e0d8b22a254489caee474c132e3e, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 5
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 630
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 06000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 19bcacbba489ee24b9fa05827108c955, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 6
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 790
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 07000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b8258a2ec80685d438a71a70fd9d0c81, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 7
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 950
-        y: 150
+        x: 424
+        y: 136
         width: 150
         height: 125
       Type: 0
@@ -526,14 +426,14 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 9c2148edf62ffdd4f8c4c4901dd07316, type: 3}
+      Video: {fileID: 32900000, guid: e278921f207513240aae862793d6f12f, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 9
+  - NodeIdAutoIncrement: 11
     Name: Test
     FirstNode: 0
     Nodes:
@@ -546,7 +446,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 7
-      Connections: 03000000
+      Connections: 09000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -562,112 +462,12 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 3
+    - ID: 9
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 310
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 04000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: d03f3be715754ee4e9102305faacb6a7, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 4
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 470
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 05000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: eba4e0d8b22a254489caee474c132e3e, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 5
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 630
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 06000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 19bcacbba489ee24b9fa05827108c955, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 6
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 790
-        y: 150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 07000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b8258a2ec80685d438a71a70fd9d0c81, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 7
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 950
-        y: 150
+        x: 424
+        y: 136
         width: 150
         height: 125
       Type: 0
@@ -682,7 +482,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 9c2148edf62ffdd4f8c4c4901dd07316, type: 3}
+      Video: {fileID: 32900000, guid: e278921f207513240aae862793d6f12f, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}

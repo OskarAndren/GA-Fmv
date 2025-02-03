@@ -24,7 +24,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bbde4049e65dfcd46a30edf7a8d90c60, type: 2}
   - {fileID: 11400000, guid: 95bf7e1d11cf2434bb02ff0873b7413a, type: 2}
   - {fileID: 11400000, guid: 96421440e87ea614fb808f9fd0af89d4, type: 2}
+  - {fileID: 11400000, guid: 6857a617f4ebb8544ad78b6a53276511, type: 2}
+  - {fileID: 11400000, guid: 72e79745a357ec04db3dbd2e0bb34f36, type: 2}
   - {fileID: 11400000, guid: 611fdaec4af243347b2dc58ff0982f85, type: 2}
+  - {fileID: 11400000, guid: e6b19e3b8dae19f4db8e97313ecb3866, type: 2}
   - {fileID: 11400000, guid: fe4b5bf8352c06747afd26b4250769b7, type: 2}
   - {fileID: 11400000, guid: b50e048b15985a34e96094a632f7cc44, type: 2}
   - {fileID: 11400000, guid: 83f8972e507d91d46962a95c57d0bc26, type: 2}
@@ -46,7 +49,10 @@ MonoBehaviour:
   - SeenSong1
   - SeenSong2
   - 1_Test1_visited
+  - 1Entre-Fakiren_visited
+  - 1Fakiren-Entre_visited
   - 6_TEST INTERVJU med mats_visited
+  - 20_Test1_visited
   - "fork 1 (fr\xE5ga 0)"
   - "fork 1 (fr\xE5ga 1)"
   - "fork 1 (fr\xE5ga 2)"

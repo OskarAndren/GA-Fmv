@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CharlesFMVEngine/Engine/Scenes/Master.unity
     guid: 36f8ccdeb686e96458fa281e10eae985
+  - enabled: 1
+    path: Assets/Scenes/InteractiveScene.unity
+    guid: a804b5d40c5048846a3b726ef70fc42e
   m_configObjects: {}

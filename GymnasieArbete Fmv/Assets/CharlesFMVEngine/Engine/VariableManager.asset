@@ -28,6 +28,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fe4b5bf8352c06747afd26b4250769b7, type: 2}
   - {fileID: 11400000, guid: b50e048b15985a34e96094a632f7cc44, type: 2}
   - {fileID: 11400000, guid: 83f8972e507d91d46962a95c57d0bc26, type: 2}
+  - {fileID: 11400000, guid: cd00c54d215c1934f9405fcd107e8c10, type: 2}
+  - {fileID: 11400000, guid: 469cb727b5d504e4396a6f7514246cda, type: 2}
+  - {fileID: 11400000, guid: 24360c937d6cdff4e9374eb26aff029a, type: 2}
+  - {fileID: 11400000, guid: b55cbd8e82bd97145a5f3d4ed1fb748e, type: 2}
+  - {fileID: 11400000, guid: a5ee5ad9214401e44bbcda4dbc384ece, type: 2}
+  - {fileID: 11400000, guid: 63ccbd7f3ee6b5b45bb5076c0224f708, type: 2}
   VariableNames:
   - RandomBoolVar
   - SwitchToDialogNode
@@ -44,4 +50,10 @@ MonoBehaviour:
   - "fork 1 (fr\xE5ga 0)"
   - "fork 1 (fr\xE5ga 1)"
   - "fork 1 (fr\xE5ga 2)"
+  - "intro fr\xE5ga_0_visited"
+  - "intro fr\xE5ga_1_visited"
+  - "intro fr\xE5ga_2_visited"
+  - "intro fr\xE5ga_3_visited"
+  - "intro fr\xE5ga_4_visited"
+  - "intro fr\xE5ga_5_visited"
   Manual: 0

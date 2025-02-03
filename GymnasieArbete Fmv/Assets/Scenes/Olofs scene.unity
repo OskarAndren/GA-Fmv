@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 26
+    NodeIdAutoIncrement: 27
     Name: "Intervju Skolsk\xF6terska"
     FirstNode: 0
     Nodes:
@@ -919,7 +919,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 2
-      Connections: 18000000
+      Connections: 
       Text: '- Vill du se om intervjun?'
       AnswerOrder: 5
       ConnectorTree: 
@@ -939,8 +939,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 440
-        y: 683
+        x: 429
+        y: 693
         width: 120
         height: 60
       Type: 4
@@ -972,8 +972,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 789
-        y: 870
+        x: 602
+        y: 875
         width: 150
         height: 125
       Type: 3
@@ -1020,7 +1020,7 @@ MonoBehaviour:
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 26
+  - NodeIdAutoIncrement: 27
     Name: "Intervju Skolsk\xF6terska"
     FirstNode: 0
     Nodes:
@@ -1523,7 +1523,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 2
-      Connections: 18000000
+      Connections: 
       Text: '- Vill du se om intervjun?'
       AnswerOrder: 5
       ConnectorTree: 
@@ -1543,8 +1543,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 440
-        y: 683
+        x: 429
+        y: 693
         width: 120
         height: 60
       Type: 4
@@ -1576,8 +1576,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 789
-        y: 870
+        x: 602
+        y: 875
         width: 150
         height: 125
       Type: 3

@@ -152,20 +152,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 9
-    Name: C-Skolan
+    NodeIdAutoIncrement: 12
+    Name: "Innerg\xE5rd"
     FirstNode: 0
     Nodes:
     - ID: 0
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 148.40001
-        y: 137.8
+        x: 75.6
+        y: 284.80005
         width: 150
         height: 125
       Type: 7
-      Connections: 01000000
+      Connections: 0b000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -181,41 +181,16 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 1
-      ReadableID: Start LundC
-      Rect:
-        serializedVersion: 2
-        x: 358
-        y: 137.8
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 02000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 0c267be2218a5014f85826fde0bb6be5, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
     - ID: 2
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 545.2001
-        y: 138.6
+        x: 537.4
+        y: 273.6
         width: 150
         height: 125
       Type: 1
-      Connections: 0300000004000000
+      Connections: 03000000040000000500000009000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -235,13 +210,13 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 730
-        y: 35.59999
+        x: 899
+        y: 163.2
         width: 150
         height: 125
       Type: 2
-      Connections: 07000000
-      Text: Huvudbyggnaden
+      Connections: 08000000
+      Text: D-Byggnaden
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -260,13 +235,13 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 732.4
-        y: 240.20001
+        x: 893.40015
+        y: 304.00003
         width: 150
         height: 125
       Type: 2
-      Connections: 05000000
-      Text: Fakiren
+      Connections: 06000000
+      Text: A-Byggnaden
       AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -285,14 +260,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 921.2
-        y: 240.20001
+        x: 894.2
+        y: 435.2
         width: 150
         height: 125
-      Type: 0
-      Connections: 06000000
-      Text: 
-      AnswerOrder: 0
+      Type: 2
+      Connections: 07000000
+      Text: B,C-Byggnaden
+      AnswerOrder: 2
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -301,7 +276,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -310,17 +285,17 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1149.2001
-        y: 238.6
+        x: 1071.0001
+        y: 296.80005
         width: 150
         height: 125
       Type: 3
       Connections: 
       Text: 
       AnswerOrder: 0
-      ConnectorTree: Fakiren
-      ConnectorTreeIndex: 1
-      ConnectorNode: Start
+      ConnectorTree: A-Byggnaden
+      ConnectorTreeIndex: 3
+      ConnectorNode: 
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
@@ -335,12 +310,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 926.7999
-        y: 37.199997
+        x: 1077.4
+        y: 434.40002
         width: 150
         height: 125
       Type: 0
-      Connections: 08000000
+      Connections: 
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -351,7 +326,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 11c46a0dde954f847b461ea1afdae25c, type: 3}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -360,30 +335,105 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1142
-        y: 34.800022
+        x: 1069.4001
+        y: 159.8
         width: 150
         height: 125
-      Type: 3
+      Type: 0
       Connections: 
       Text: 
       AnswerOrder: 0
-      ConnectorTree: "Innerg\xE5rd"
-      ConnectorTreeIndex: 2
-      ConnectorNode: Start
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 666.2
+        y: 451.2
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0a000000
+      Text: "Till V\xE4gen\n"
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 471.00003
+        y: 452.80002
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: C-Skolan
+      ConnectorTreeIndex: 0
+      ConnectorNode: "V\xE4gen1"
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 315.79996
+        y: 276.39996
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8bb310b572f644447ac6700fad17f0eb, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 9
+  - NodeIdAutoIncrement: 11
     Name: C-Skolan
     FirstNode: 0
     Nodes:
@@ -391,8 +441,8 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 148.40001
-        y: 137.8
+        x: 97.6
+        y: 200
         width: 150
         height: 125
       Type: 7
@@ -416,8 +466,8 @@ MonoBehaviour:
       ReadableID: Start LundC
       Rect:
         serializedVersion: 2
-        x: 358
-        y: 137.8
+        x: 302.39996
+        y: 199.19998
         width: 150
         height: 125
       Type: 0
@@ -438,11 +488,11 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 2
-      ReadableID: 
+      ReadableID: "V\xE4gen1"
       Rect:
         serializedVersion: 2
-        x: 545.2001
-        y: 138.6
+        x: 540
+        y: 200
         width: 150
         height: 125
       Type: 1
@@ -457,7 +507,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3f5fea42d3697994f95a05dd69a91993, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -466,12 +516,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 730
-        y: 35.59999
+        x: 720
+        y: 100
         width: 150
         height: 125
       Type: 2
-      Connections: 07000000
+      Connections: 08000000
       Text: Huvudbyggnaden
       AnswerOrder: 0
       ConnectorTree: 
@@ -491,12 +541,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 732.4
-        y: 240.20001
+        x: 740
+        y: 300
         width: 150
         height: 125
       Type: 2
-      Connections: 05000000
+      Connections: 06000000
       Text: Fakiren
       AnswerOrder: 1
       ConnectorTree: 
@@ -512,37 +562,12 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 5
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 921.2
-        y: 240.20001
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 06000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: b487dd634b70861418718634717ae33e, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
     - ID: 6
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1149.2001
-        y: 238.6
+        x: 999.19995
+        y: 296.8
         width: 150
         height: 125
       Type: 3
@@ -562,37 +587,12 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 7
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 926.7999
-        y: 37.199997
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 08000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 11c46a0dde954f847b461ea1afdae25c, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
     - ID: 8
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1142
-        y: 34.800022
+        x: 1004
+        y: 95.2
         width: 150
         height: 125
       Type: 3
@@ -613,7 +613,7 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 20
+  - NodeIdAutoIncrement: 24
     Name: Fakiren
     FirstNode: 0
     Nodes:
@@ -621,12 +621,12 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 150
-        y: 425
+        x: 14.999992
+        y: 423.40002
         width: 150
         height: 125
       Type: 7
-      Connections: 01000000
+      Connections: 17000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -646,8 +646,8 @@ MonoBehaviour:
       ReadableID: 1Fakiren-Entre
       Rect:
         serializedVersion: 2
-        x: 310
-        y: 425
+        x: 736.6
+        y: 384.19998
         width: 150
         height: 125
       Type: 0
@@ -671,12 +671,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 470
-        y: 425
+        x: 937.39996
+        y: 369
         width: 150
         height: 125
       Type: 1
-      Connections: 030000001200000004000000
+      Connections: 0300000004000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -696,8 +696,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 647.6
-        y: 524.19995
+        x: 1018.2
+        y: 544.19995
         width: 150
         height: 125
       Type: 2
@@ -721,8 +721,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 535.6
-        y: 156.4
+        x: 1043
+        y: 161.19998
         width: 150
         height: 125
       Type: 2
@@ -746,8 +746,8 @@ MonoBehaviour:
       ReadableID: "1Fakiren-K\xF6k"
       Rect:
         serializedVersion: 2
-        x: 739.6001
-        y: 160.39998
+        x: 1313.4001
+        y: 157.19998
         width: 150
         height: 125
       Type: 0
@@ -771,8 +771,8 @@ MonoBehaviour:
       ReadableID: 1Fakiren-Lounge
       Rect:
         serializedVersion: 2
-        x: 837.19995
-        y: 535.4
+        x: 1240.6
+        y: 547.4
         width: 150
         height: 125
       Type: 0
@@ -796,7 +796,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1076.4001
+        x: 1501.4001
         y: 574
         width: 150
         height: 125
@@ -821,8 +821,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1206.8
-        y: 336.39996
+        x: 1633.4001
+        y: 400.39996
         width: 150
         height: 125
       Type: 2
@@ -848,8 +848,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1346.8002
-        y: 478.00003
+        x: 1394.2002
+        y: 401.2
         width: 150
         height: 125
       Type: 2
@@ -873,8 +873,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1385.2002
-        y: 331.6
+        x: 1830.2002
+        y: 401.2
         width: 150
         height: 125
       Type: 0
@@ -898,8 +898,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1561.2002
-        y: 322
+        x: 2028.6001
+        y: 389.2
         width: 150
         height: 125
       Type: 0
@@ -923,8 +923,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1744.4001
-        y: 320.40002
+        x: 2259.8
+        y: 389.2
         width: 150
         height: 125
       Type: 1
@@ -948,7 +948,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 2039.6001
+        x: 2464.6
         y: 606
         width: 150
         height: 125
@@ -973,7 +973,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1908.4001
+        x: 2333.4001
         y: 147.6
         width: 150
         height: 125
@@ -998,8 +998,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 375.59998
-        y: 658.60004
+        x: 707.7999
+        y: 637.80005
         width: 150
         height: 125
       Type: 2
@@ -1023,17 +1023,17 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 683.5999
-        y: 818.80005
+        x: 1096.5999
+        y: 697.2
         width: 150
         height: 125
       Type: 3
       Connections: 
       Text: 
       AnswerOrder: 0
-      ConnectorTree: Fakiren
-      ConnectorTreeIndex: 1
-      ConnectorNode: Start
+      ConnectorTree: C-Skolan
+      ConnectorTreeIndex: 0
+      ConnectorNode: "V\xE4gen1"
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
@@ -1044,21 +1044,16 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    LocalizationPrefix: 
-  - NodeIdAutoIncrement: 9
-    Name: "Innerg\xE5rd"
-    FirstNode: 0
-    Nodes:
-    - ID: 0
-      ReadableID: Start
+    - ID: 20
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 150
-        y: 300
+        x: 366.00003
+        y: 425.99988
         width: 150
         height: 125
-      Type: 7
-      Connections: 01000000
+      Type: 1
+      Connections: 1500000012000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1074,16 +1069,71 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 1
+    - ID: 21
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 310
-        y: 300
+        x: 549.19995
+        y: 385.1999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 01000000
+      Text: "G\xE5 in\n"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 191.60002
+        y: 420.39996
         width: 150
         height: 125
       Type: 0
-      Connections: 02000000
+      Connections: 14000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: dea0dbe9d9d542a4e8ea762806de7a87, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  - NodeIdAutoIncrement: 12
+    Name: "Innerg\xE5rd"
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 75.6
+        y: 284.80005
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 0b000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1103,12 +1153,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 470
-        y: 300
+        x: 537.4
+        y: 273.6
         width: 150
         height: 125
       Type: 1
-      Connections: 030000000400000005000000
+      Connections: 03000000040000000500000009000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1128,8 +1178,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 633.19995
-        y: 176
+        x: 899
+        y: 163.2
         width: 150
         height: 125
       Type: 2
@@ -1153,7 +1203,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 708.40015
+        x: 893.40015
         y: 304.00003
         width: 150
         height: 125
@@ -1178,8 +1228,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 638.8
-        y: 428.80002
+        x: 894.2
+        y: 435.2
         width: 150
         height: 125
       Type: 2
@@ -1203,7 +1253,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 886.0001
+        x: 1071.0001
         y: 296.80005
         width: 150
         height: 125
@@ -1211,8 +1261,8 @@ MonoBehaviour:
       Connections: 
       Text: 
       AnswerOrder: 0
-      ConnectorTree: C-Skolan
-      ConnectorTreeIndex: 0
+      ConnectorTree: A-Byggnaden
+      ConnectorTreeIndex: 3
       ConnectorNode: 
       Condition:
         AndGroups: []
@@ -1228,8 +1278,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 838
-        y: 489.60004
+        x: 1077.4
+        y: 434.40002
         width: 150
         height: 125
       Type: 0
@@ -1253,8 +1303,138 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 805.2001
-        y: 129.4
+        x: 1069.4001
+        y: 159.8
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 666.2
+        y: 451.2
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0a000000
+      Text: "Till V\xE4gen\n"
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 471.00003
+        y: 452.80002
+        width: 150
+        height: 125
+      Type: 3
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: C-Skolan
+      ConnectorTreeIndex: 0
+      ConnectorNode: "V\xE4gen1"
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 315.79996
+        y: 276.39996
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8bb310b572f644447ac6700fad17f0eb, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  - NodeIdAutoIncrement: 2
+    Name: A-Byggnaden
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 245.2
+        y: 148.4
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 01000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 1
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 405.2
+        y: 148.4
         width: 150
         height: 125
       Type: 0
@@ -1374,7 +1554,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83795565, y: 0.83795565, z: 0.83795565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -122,6 +122,58 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &135842935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 135842937}
+  - component: {fileID: 135842936}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &135842936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135842935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2393a78221df6f4397ab0ee9cbbf2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination:
+    m_SceneAsset: {fileID: 102900000, guid: a804b5d40c5048846a3b726ef70fc42e, type: 3}
+    m_SceneName: InteractiveScene
+  DialogNodeID: 
+  FadeToBlack: 1
+  OnSwitch:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &135842937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135842935}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -226.65031, y: 82.812775, z: -2.317912}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &412037891
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,20 +204,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 12
-    Name: "Innerg\xE5rd"
+    NodeIdAutoIncrement: 28
+    Name: Fakiren
     FirstNode: 0
     Nodes:
     - ID: 0
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 75.6
-        y: 284.80005
+        x: 20
+        y: 420
         width: 150
         height: 125
       Type: 7
-      Connections: 0b000000
+      Connections: 17000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -181,16 +233,16 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 2
-      ReadableID: 
+    - ID: 1
+      ReadableID: 1Fakiren-Entre
       Rect:
         serializedVersion: 2
-        x: 537.4
-        y: 273.6
+        x: 740
+        y: 380
         width: 150
         height: 125
-      Type: 1
-      Connections: 03000000040000000500000009000000
+      Type: 0
+      Connections: 02000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -201,6 +253,31 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d03f3be715754ee4e9102305faacb6a7, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 940
+        y: 360
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0300000004000000
+      Text: '-'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 72e79745a357ec04db3dbd2e0bb34f36, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
@@ -210,14 +287,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 899
-        y: 163.2
+        x: 1020
+        y: 540
         width: 150
         height: 125
       Type: 2
-      Connections: 08000000
-      Text: D-Byggnaden
-      AnswerOrder: 0
+      Connections: 06000000
+      Text: Lounge
+      AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -235,13 +312,13 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 893.40015
-        y: 304.00003
+        x: 760
+        y: 120
         width: 150
         height: 125
       Type: 2
-      Connections: 06000000
-      Text: A-Byggnaden
+      Connections: 05000000
+      Text: "K\xF6k\n"
       AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -257,17 +334,17 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 5
-      ReadableID: 
+      ReadableID: "FakirenK\xF6k"
       Rect:
         serializedVersion: 2
-        x: 894.2
-        y: 435.2
+        x: 1000
+        y: 40
         width: 150
         height: 125
-      Type: 2
-      Connections: 07000000
-      Text: B,C-Byggnaden
-      AnswerOrder: 2
+      Type: 0
+      Connections: 18000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -276,32 +353,32 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 19bcacbba489ee24b9fa05827108c955, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 6
-      ReadableID: 
+      ReadableID: 1Fakiren-Lounge
       Rect:
         serializedVersion: 2
-        x: 1071.0001
-        y: 296.80005
+        x: 1240
+        y: 540
         width: 150
         height: 125
-      Type: 3
-      Connections: 
+      Type: 0
+      Connections: 07000000
       Text: 
       AnswerOrder: 0
-      ConnectorTree: A-Byggnaden
-      ConnectorTreeIndex: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: eba4e0d8b22a254489caee474c132e3e, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -310,12 +387,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1077.4
-        y: 434.40002
+        x: 1500
+        y: 580
         width: 150
         height: 125
-      Type: 0
-      Connections: 
+      Type: 1
+      Connections: 0800000009000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -335,13 +412,15 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1069.4001
-        y: 159.8
+        x: 1640
+        y: 400
         width: 150
         height: 125
-      Type: 0
-      Connections: 
-      Text: 
+      Type: 2
+      Connections: 0a000000
+      Text: 'Resten
+
+'
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -360,14 +439,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 666.2
-        y: 451.2
+        x: 1400
+        y: 400
         width: 150
         height: 125
       Type: 2
-      Connections: 0a000000
-      Text: "Till V\xE4gen\n"
-      AnswerOrder: 3
+      Connections: 02000000
+      Text: Tillbaka
+      AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -385,8 +464,158 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 471.00003
-        y: 452.80002
+        x: 1840
+        y: 400
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b8258a2ec80685d438a71a70fd9d0c81, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2020
+        y: 380
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0c000000
+      Text: '-'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 9c2148edf62ffdd4f8c4c4901dd07316, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 12
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2260
+        y: 380
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0f00000010000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2460
+        y: 600
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: "Till v\xE4gen"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 2340
+        y: 140
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Kolla igen
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 18
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 700
+        y: 640
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: "Till v\xE4gen\n"
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 19
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1100
+        y: 700
         width: 150
         height: 125
       Type: 3
@@ -406,16 +635,16 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 11
+    - ID: 20
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 315.79996
-        y: 276.39996
+        x: 360
+        y: 420
         width: 150
         height: 125
-      Type: 0
-      Connections: 02000000
+      Type: 1
+      Connections: 1500000012000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -426,14 +655,164 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: 8bb310b572f644447ac6700fad17f0eb, type: 3}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 21
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 540
+        y: 380
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 01000000
+      Text: "G\xE5 in\n"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 200
+        y: 420
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 14000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: dea0dbe9d9d542a4e8ea762806de7a87, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 24
+      ReadableID: Kaffe?
+      Rect:
+        serializedVersion: 2
+        x: 1220
+        y: 40
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 190000001a000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3f5fea42d3697994f95a05dd69a91993, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1220
+        y: 200
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: "Best\xE4ll inte kaffe\n"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 140
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1b000000
+      Text: "Best\xE4ll kaffe"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 20
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 135842936}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
   Trees:
-  - NodeIdAutoIncrement: 11
+  - NodeIdAutoIncrement: 14
     Name: C-Skolan
     FirstNode: 0
     Nodes:
@@ -613,7 +992,7 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 24
+  - NodeIdAutoIncrement: 28
     Name: Fakiren
     FirstNode: 0
     Nodes:
@@ -621,8 +1000,8 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 14.999992
-        y: 423.40002
+        x: 20
+        y: 420
         width: 150
         height: 125
       Type: 7
@@ -646,8 +1025,8 @@ MonoBehaviour:
       ReadableID: 1Fakiren-Entre
       Rect:
         serializedVersion: 2
-        x: 736.6
-        y: 384.19998
+        x: 740
+        y: 380
         width: 150
         height: 125
       Type: 0
@@ -671,13 +1050,13 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 937.39996
-        y: 369
+        x: 940
+        y: 360
         width: 150
         height: 125
       Type: 1
       Connections: 0300000004000000
-      Text: 
+      Text: '-'
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -696,14 +1075,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1018.2
-        y: 544.19995
+        x: 1020
+        y: 540
         width: 150
         height: 125
       Type: 2
       Connections: 06000000
       Text: Lounge
-      AnswerOrder: 0
+      AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -721,13 +1100,13 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1043
-        y: 161.19998
+        x: 760
+        y: 120
         width: 150
         height: 125
       Type: 2
       Connections: 05000000
-      Text: "K\xF6ket"
+      Text: "K\xF6k\n"
       AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -743,15 +1122,15 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 5
-      ReadableID: "1Fakiren-K\xF6k"
+      ReadableID: "FakirenK\xF6k"
       Rect:
         serializedVersion: 2
-        x: 1313.4001
-        y: 157.19998
+        x: 1000
+        y: 40
         width: 150
         height: 125
       Type: 0
-      Connections: 02000000
+      Connections: 18000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -771,8 +1150,8 @@ MonoBehaviour:
       ReadableID: 1Fakiren-Lounge
       Rect:
         serializedVersion: 2
-        x: 1240.6
-        y: 547.4
+        x: 1240
+        y: 540
         width: 150
         height: 125
       Type: 0
@@ -796,8 +1175,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1501.4001
-        y: 574
+        x: 1500
+        y: 580
         width: 150
         height: 125
       Type: 1
@@ -821,8 +1200,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1633.4001
-        y: 400.39996
+        x: 1640
+        y: 400
         width: 150
         height: 125
       Type: 2
@@ -848,8 +1227,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1394.2002
-        y: 401.2
+        x: 1400
+        y: 400
         width: 150
         height: 125
       Type: 2
@@ -873,8 +1252,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1830.2002
-        y: 401.2
+        x: 1840
+        y: 400
         width: 150
         height: 125
       Type: 0
@@ -898,8 +1277,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 2028.6001
-        y: 389.2
+        x: 2020
+        y: 380
         width: 150
         height: 125
       Type: 0
@@ -923,8 +1302,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 2259.8
-        y: 389.2
+        x: 2260
+        y: 380
         width: 150
         height: 125
       Type: 1
@@ -948,8 +1327,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 2464.6
-        y: 606
+        x: 2460
+        y: 600
         width: 150
         height: 125
       Type: 2
@@ -973,8 +1352,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 2333.4001
-        y: 147.6
+        x: 2340
+        y: 140
         width: 150
         height: 125
       Type: 2
@@ -998,8 +1377,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 707.7999
-        y: 637.80005
+        x: 700
+        y: 640
         width: 150
         height: 125
       Type: 2
@@ -1023,8 +1402,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1096.5999
-        y: 697.2
+        x: 1100
+        y: 700
         width: 150
         height: 125
       Type: 3
@@ -1048,8 +1427,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 366.00003
-        y: 425.99988
+        x: 360
+        y: 420
         width: 150
         height: 125
       Type: 1
@@ -1073,8 +1452,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 549.19995
-        y: 385.1999
+        x: 540
+        y: 380
         width: 150
         height: 125
       Type: 2
@@ -1098,8 +1477,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 191.60002
-        y: 420.39996
+        x: 200
+        y: 420
         width: 150
         height: 125
       Type: 0
@@ -1115,6 +1494,106 @@ MonoBehaviour:
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 32900000, guid: dea0dbe9d9d542a4e8ea762806de7a87, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 24
+      ReadableID: Kaffe?
+      Rect:
+        serializedVersion: 2
+        x: 1220
+        y: 40
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 190000001a000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 3f5fea42d3697994f95a05dd69a91993, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1220
+        y: 200
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: "Best\xE4ll inte kaffe\n"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 140
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1b000000
+      Text: "Best\xE4ll kaffe"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1500
+        y: 20
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 135842936}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -1499,9 +1978,54 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 840848287}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &840848286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840848287}
+  - component: {fileID: 840848288}
+  m_Layer: 0
+  m_Name: Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840848287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840848286}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 674341588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &840848288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840848286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910797210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,3 +2269,4 @@ SceneRoots:
   - {fileID: 412037893}
   - {fileID: 910797213}
   - {fileID: 674341588}
+  - {fileID: 135842937}

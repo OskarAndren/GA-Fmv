@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     Animator ani;
 
     Vector2 moveInput;
+
     public float moveSpeed = 5f;
     public float jumpSpeed = 10f;
+    private float maxYVeolcity = -20f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (rb.velocity.y < maxYVeolcity) rb.velocity = new Vector2(rb.velocity.x, maxYVeolcity);
         Run();
     }
 

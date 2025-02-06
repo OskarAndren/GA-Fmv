@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.013824, y: 33}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: -0.013824, y: 53.15651}
+  m_SizeDelta: {x: 200, y: 58.4674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120973354
 MonoBehaviour:
@@ -2274,12 +2274,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnMouseEnterEvent:
     m_PersistentCalls:
-      m_Calls: []
-  OnMouseExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMouseClick:
-    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2146535930}
         m_TargetAssemblyTypeName: CharlesEngine.CEGameObject, Assembly-CSharp
@@ -2293,6 +2287,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnMouseExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMouseClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1743645576
 MonoBehaviour:
   m_ObjectHideFlags: 0

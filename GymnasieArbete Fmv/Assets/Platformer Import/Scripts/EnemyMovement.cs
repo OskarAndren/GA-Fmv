@@ -17,11 +17,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        if(!Globals.gameWon)
-        {
             rb.velocity = new Vector2(moveSpeed, 0f);
-        }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)

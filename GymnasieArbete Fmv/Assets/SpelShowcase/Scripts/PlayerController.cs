@@ -8,8 +8,13 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator ani;
+    BoxCollider2D feet_Col;
+    CapsuleCollider2D body_Col;
 
     Vector2 moveInput;
+    [SerializeField] Vector2 deathKick;
+
+    public bool isAlive = true;
 
     public float moveSpeed = 5f;
     public float jumpSpeed = 10f;
@@ -18,12 +23,15 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        feet_Col = GetComponent<BoxCollider2D>();
+        body_Col = GetComponent<CapsuleCollider2D>();
     }
 
     void Update()
     {
         if (rb.velocity.y < maxYVeolcity) rb.velocity = new Vector2(rb.velocity.x, maxYVeolcity);
-        Run();
+        if (isAlive)
+            Run();
     }
 
     void OnMove(InputValue value)
@@ -32,7 +40,8 @@ public class PlayerController : MonoBehaviour
     }
     void OnJump()
     {
-        rb.velocity += new Vector2(0f, jumpSpeed);
+        if (feet_Col.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            rb.velocity += new Vector2(0f, jumpSpeed);
     }
     void Run()
     {
@@ -47,6 +56,26 @@ public class PlayerController : MonoBehaviour
         else
         {
             ani.SetBool("isRunning", false);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        {
+            isAlive = false;
+            ani.SetBool("isDead", true);
+            rb.velocity = deathKick;
+            feet_Col.enabled = false;
+            body_Col.enabled = false;
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (feet_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        {
+            Destroy(other.gameObject);
+            rb.velocity += new Vector2(rb.velocity.x, 20);
         }
     }
 }

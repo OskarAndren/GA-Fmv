@@ -27,10 +27,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6857a617f4ebb8544ad78b6a53276511, type: 2}
   - {fileID: 11400000, guid: 72e79745a357ec04db3dbd2e0bb34f36, type: 2}
   - {fileID: 11400000, guid: 611fdaec4af243347b2dc58ff0982f85, type: 2}
+  - {fileID: 11400000, guid: a6bd7d2cc6a9b1647bcb9e38bdd15b97, type: 2}
   - {fileID: 11400000, guid: e6b19e3b8dae19f4db8e97313ecb3866, type: 2}
   - {fileID: 11400000, guid: fe4b5bf8352c06747afd26b4250769b7, type: 2}
   - {fileID: 11400000, guid: b50e048b15985a34e96094a632f7cc44, type: 2}
   - {fileID: 11400000, guid: 83f8972e507d91d46962a95c57d0bc26, type: 2}
+  - {fileID: 11400000, guid: 713479155141197438b80a1929441eba, type: 2}
+  - {fileID: 11400000, guid: 00a3433b3459cec428e9cbac9f2c6218, type: 2}
+  - {fileID: 11400000, guid: b637c16429b9e5a47a29bb6d30beaede, type: 2}
+  - {fileID: 11400000, guid: c0874779db86a2342af120000726e312, type: 2}
+  - {fileID: 11400000, guid: 3667b24876c4e904fb06560d07ed5f8e, type: 2}
   - {fileID: 11400000, guid: 71c78f7ce39c037418430d2c246d0cec, type: 2}
   - {fileID: 11400000, guid: 6a0e34125193b8d4c8f49cee3c7e038c, type: 2}
   - {fileID: 11400000, guid: ab0d42dc77df1a44cba4c22c4fec615a, type: 2}
@@ -57,10 +63,16 @@ MonoBehaviour:
   - 1Entre-Fakiren_visited
   - 1Fakiren-Entre_visited
   - 6_TEST INTERVJU med mats_visited
+  - 11_hans_visited
   - 20_Test1_visited
   - "fork 1 (fr\xE5ga 0)"
   - "fork 1 (fr\xE5ga 1)"
   - "fork 1 (fr\xE5ga 2)"
+  - hans_0_visited
+  - hans_1_visited
+  - hans_2_visited
+  - hans_3_visited
+  - hans_4_visited
   - jonas_o_calle_0_visited
   - jonas_o_calle_1_visited
   - jonas_o_calle_3_visited

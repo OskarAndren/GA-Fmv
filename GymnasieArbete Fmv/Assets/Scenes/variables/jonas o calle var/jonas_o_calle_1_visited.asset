@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: jonas_o_calle_1_visited
   m_EditorClassIdentifier: 
   Guid: 6a0e34125193b8d4c8f49cee3c7e038c
-  PersistanceType: 0
+  PersistanceType: 1
   DefaultValue: 0
   Comment: 

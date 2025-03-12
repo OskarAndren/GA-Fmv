@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +12,10 @@ public class PlayerController : MonoBehaviour
     Animator ani;
     BoxCollider2D feet_Col;
     CapsuleCollider2D body_Col;
+
+    [SerializeField] TextMeshProUGUI coinsText;
+    [SerializeField] GameOverScreenShowcase GameOverScreenShowcase;
+    [SerializeField] WinScreenShowcase WinScreenShowcase;
 
     Vector2 moveInput;
     [SerializeField] Vector2 deathKick;
@@ -19,19 +25,33 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpSpeed = 10f;
     private float maxYVeolcity = -20f;
+
+    public int coinsPickedUp;
+    int totalCoinsInScene = 5;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
         feet_Col = GetComponent<BoxCollider2D>();
         body_Col = GetComponent<CapsuleCollider2D>();
+
+        coinsText.text = "Coins: " + coinsPickedUp + "/" + totalCoinsInScene;
     }
 
     void Update()
     {
         if (rb.velocity.y < maxYVeolcity) rb.velocity = new Vector2(rb.velocity.x, maxYVeolcity);
         if (isAlive)
-            Run();
+        {
+            if (coinsPickedUp == totalCoinsInScene)
+            {
+                WinScreenShowcase.SetUp();
+                rb.velocity = Vector2.zero;
+            }
+            else Run();
+        }
+        else GameOverScreenShowcase.SetUp();
     }
 
     void OnMove(InputValue value)
@@ -76,6 +96,13 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             rb.velocity += new Vector2(rb.velocity.x, 20);
+        }
+
+        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Coin")))
+        {
+            coinsPickedUp++;
+            coinsText.text = "Coins: " + coinsPickedUp + "/" + totalCoinsInScene;
+            Destroy(other.gameObject);
         }
     }
 }

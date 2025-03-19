@@ -1487,7 +1487,7 @@ MonoBehaviour:
         height: 125
       Type: 2
       Connections: 15000000
-      Text: '-'
+      Text: "- Vad l\xE4r man sig?"
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -2039,7 +2039,7 @@ MonoBehaviour:
         height: 125
       Type: 2
       Connections: 15000000
-      Text: '-'
+      Text: "- Vad l\xE4r man sig?"
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0

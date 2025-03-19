@@ -16,11 +16,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] TextMeshProUGUI coinsText;
     [SerializeField] GameOverScreenShowcase GameOverScreenShowcase;
     [SerializeField] WinScreenShowcase WinScreenShowcase;
-    [SerializeField] Vector2 deathKick;
-    [SerializeField] Healthbarscript healtBar;
-
 
     Vector2 moveInput;
+    [SerializeField] Vector2 deathKick;
 
     public bool isAlive = true;
 
@@ -30,8 +28,6 @@ public class PlayerController : MonoBehaviour
 
     public int coinsPickedUp;
     int totalCoinsInScene = 5;
-    public int maxHealth = 3;
-    public int currentHealth;
 
     void Start()
     {
@@ -41,9 +37,6 @@ public class PlayerController : MonoBehaviour
         body_Col = GetComponent<CapsuleCollider2D>();
 
         coinsText.text = "Coins: " + coinsPickedUp + "/" + totalCoinsInScene;
-
-        currentHealth = maxHealth;
-        healtBar.SetHealth(maxHealth);
     }
 
     void Update()
@@ -57,14 +50,6 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = Vector2.zero;
             }
             else Run();
-            if (currentHealth <= 0||body_Col.IsTouchingLayers(LayerMask.GetMask("Water")))
-            {
-                isAlive = false;
-                ani.SetBool("isDead", true);
-                rb.velocity = deathKick;
-                feet_Col.enabled = false;
-                body_Col.enabled = false;
-            }
         }
         else GameOverScreenShowcase.SetUp();
     }
@@ -95,23 +80,22 @@ public class PlayerController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        CapsuleCollider2D enemyCapsuleCollider = other.collider.GetComponent<CapsuleCollider2D>();
-
-        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")) && (enemyCapsuleCollider != null && body_Col.IsTouching(enemyCapsuleCollider)))
+        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
         {
-            currentHealth--;
-            healtBar.SetHealth(currentHealth);
+            isAlive = false;
+            ani.SetBool("isDead", true);
+            rb.velocity = deathKick;
+            feet_Col.enabled = false;
+            body_Col.enabled = false;
         }
 
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PolygonCollider2D enemyPolyCollider = other.GetComponent<PolygonCollider2D>();
-
-        if (enemyPolyCollider != null && feet_Col.IsTouching(enemyPolyCollider)&&feet_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        if (feet_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
         {
             Destroy(other.gameObject);
-            rb.velocity = new Vector2(rb.velocity.x, 10);
+            rb.velocity += new Vector2(rb.velocity.x, 20);
         }
 
         if (body_Col.IsTouchingLayers(LayerMask.GetMask("Coin")))

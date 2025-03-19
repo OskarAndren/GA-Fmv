@@ -42,6 +42,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ab0d42dc77df1a44cba4c22c4fec615a, type: 2}
   - {fileID: 11400000, guid: 605c26e1394b41341806f390bc863251, type: 2}
   - {fileID: 11400000, guid: 0e694a9915168ea4b9becfc1f69ec373, type: 2}
+  - {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+  - {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+  - {fileID: 11400000, guid: 45dc9656b86637a42bcaf30534d1b22e, type: 2}
+  - {fileID: 11400000, guid: cd45f8add12ef7c48b96f7ed515eb4e6, type: 2}
+  - {fileID: 11400000, guid: 2c247a1c8ed7ddc4bac99b20b95ce675, type: 2}
+  - {fileID: 11400000, guid: c9e6a2b3868e6d742a478c3a700ec4b0, type: 2}
+  - {fileID: 11400000, guid: d72a5697e5ce8344b91b1cf821f1892a, type: 2}
+  - {fileID: 11400000, guid: 6e1a07edfa2ef354ab3c208faee061d3, type: 2}
+  - {fileID: 11400000, guid: 794ba19b3680bb7468821a3b86941a31, type: 2}
+  - {fileID: 11400000, guid: b333684c3163ba045a728ca3ee0a04dc, type: 2}
   - {fileID: 11400000, guid: cd00c54d215c1934f9405fcd107e8c10, type: 2}
   - {fileID: 11400000, guid: 469cb727b5d504e4396a6f7514246cda, type: 2}
   - {fileID: 11400000, guid: 24360c937d6cdff4e9374eb26aff029a, type: 2}
@@ -78,6 +88,16 @@ MonoBehaviour:
   - jonas_o_calle_3_visited
   - jonas_o_calle_4_visited
   - jonas_o_calle_5_visited
+  - mats_0_visited
+  - mats_1_visited
+  - mats_2_visited
+  - mats_3_visited
+  - mats_4_visited
+  - robert_0_visited
+  - robert_1_visited
+  - robert_2_visited
+  - robert_3_visited
+  - robert_4_visited
   - "intro fr\xE5ga_0_visited"
   - "intro fr\xE5ga_1_visited"
   - "intro fr\xE5ga_2_visited"

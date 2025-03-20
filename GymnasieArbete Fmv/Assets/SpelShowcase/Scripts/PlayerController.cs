@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] TextMeshProUGUI coinsText;
     [SerializeField] GameOverScreenShowcase GameOverScreenShowcase;
     [SerializeField] WinScreenShowcase WinScreenShowcase;
+    [SerializeField] HealthBarScript healthBar;
 
     Vector2 moveInput;
     [SerializeField] Vector2 deathKick;
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private float maxYVeolcity = -20f;
 
     public int coinsPickedUp;
+    public int playerHealth;
+    public int maxPlayerHealth = 3;
     int totalCoinsInScene = 5;
 
     void Start()
@@ -37,6 +40,8 @@ public class PlayerController : MonoBehaviour
         body_Col = GetComponent<CapsuleCollider2D>();
 
         coinsText.text = "Coins: " + coinsPickedUp + "/" + totalCoinsInScene;
+
+        playerHealth = maxPlayerHealth;
     }
 
     void Update()
@@ -50,8 +55,16 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = Vector2.zero;
             }
             else Run();
+            if (playerHealth <= 0) isAlive = false;
         }
-        else GameOverScreenShowcase.SetUp();
+        else
+        {
+            ani.SetBool("isDead", true);
+            rb.velocity = deathKick;
+            feet_Col.enabled = false;
+            body_Col.enabled = false;
+            GameOverScreenShowcase.SetUp();
+        }
     }
 
     void OnMove(InputValue value)
@@ -80,13 +93,12 @@ public class PlayerController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        CapsuleCollider2D enemyCapsuleCollider = other.collider.GetComponent<CapsuleCollider2D>();
+
+        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")) && (enemyCapsuleCollider != null && body_Col.IsTouching(enemyCapsuleCollider)))
         {
-            isAlive = false;
-            ani.SetBool("isDead", true);
-            rb.velocity = deathKick;
-            feet_Col.enabled = false;
-            body_Col.enabled = false;
+            playerHealth--;
+            healthBar.SetHealth(playerHealth);
         }
 
     }

@@ -44,11 +44,17 @@ public class PlayerController : MonoBehaviour
         playerHealth = maxPlayerHealth;
     }
 
+    bool deadTrigger = false;
     void Update()
     {
         if (rb.velocity.y < maxYVeolcity) rb.velocity = new Vector2(rb.velocity.x, maxYVeolcity);
         if (isAlive)
         {
+            healthBar.SetHealth(playerHealth);
+            if (playerHealth <= 0)
+            {
+                isAlive = false;
+            }
             if (coinsPickedUp == totalCoinsInScene)
             {
                 WinScreenShowcase.SetUp();
@@ -57,8 +63,9 @@ public class PlayerController : MonoBehaviour
             else Run();
             if (playerHealth <= 0) isAlive = false;
         }
-        else
+        else if (!isAlive && !deadTrigger)
         {
+            deadTrigger = true;
             ani.SetBool("isDead", true);
             rb.velocity = deathKick;
             feet_Col.enabled = false;
@@ -104,11 +111,17 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (feet_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")))
+        PolygonCollider2D enemyPolyCollider = other.GetComponent<PolygonCollider2D>();
+
+        if (feet_Col.IsTouchingLayers(LayerMask.GetMask("Enemies")) && enemyPolyCollider != null && feet_Col.IsTouching(enemyPolyCollider))
         {
             Destroy(other.gameObject);
             rb.velocity += new Vector2(rb.velocity.x, 20);
         }
+
+        if (body_Col.IsTouchingLayers(LayerMask.GetMask("Water")))
+            isAlive = false;
+
 
         if (body_Col.IsTouchingLayers(LayerMask.GetMask("Coin")))
         {

@@ -1010,16 +1010,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 16
-    Name: meny
+    NodeIdAutoIncrement: 31
+    Name: "Intervju Skolsk\xF6terska"
     FirstNode: 0
     Nodes:
     - ID: 0
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 890
-        y: 1220
+        x: 160
+        y: 360
         width: 150
         height: 125
       Type: 7
@@ -1040,15 +1040,15 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 1
-      ReadableID: meny fork
+      ReadableID: intro sebbe
       Rect:
         serializedVersion: 2
-        x: 1103
-        y: 1220
+        x: 360
+        y: 360
         width: 150
         height: 125
-      Type: 1
-      Connections: 02000000
+      Type: 0
+      Connections: 06000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1059,123 +1059,23 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: a3cfacfead4cbdf4da6d82cb904b11e5, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 2
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1103
-        y: 1050
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 03000000
-      Text: "- L\xE4rarintervjuer"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 3
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1108
-        y: 900
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 040000000500000006000000070000000800000009000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 32900000, guid: a3cfacfead4cbdf4da6d82cb904b11e5, type: 3}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 4
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 899
-        y: 895
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 0a000000
-      Text: '- Dag'
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 5
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 904
-        y: 750
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 0b000000
-      Text: '- Robert'
-      AnswerOrder: 1
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 1dea3cc671bd79f42b6e472e54cacf1f, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 6
-      ReadableID: 
+      ReadableID: "intro fr\xE5ga"
       Rect:
         serializedVersion: 2
-        x: 906
-        y: 610
+        x: 540
+        y: 360
         width: 150
         height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: '- Mats'
-      AnswerOrder: 2
+      Type: 1
+      Connections: 1100000012000000130000001400000015000000170000001c000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1193,14 +1093,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 905
-        y: 475
+        x: 780
+        y: 60
         width: 150
         height: 125
       Type: 2
-      Connections: 0d000000
-      Text: '- Hans'
-      AnswerOrder: 3
+      Connections: 0c000000
+      Text: "- Hur ofta \xE4r du p\xE5 skolan?"
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1208,7 +1108,7 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: cd00c54d215c1934f9405fcd107e8c10, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
@@ -1218,14 +1118,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 911
-        y: 326
+        x: 878
+        y: 221
         width: 150
         height: 125
       Type: 2
-      Connections: 0e000000
-      Text: '- Jonas och Calle'
-      AnswerOrder: 4
+      Connections: 0d000000
+      Text: "- Vilka best\xE5r elevh\xE4lsan av?"
+      AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1233,7 +1133,7 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 469cb727b5d504e4396a6f7514246cda, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
@@ -1243,14 +1143,490 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 911
-        y: 188
+        x: 1027
+        y: 382
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 0e000000
+      Text: "- Vad \xE4r din roll p\xE5 skolan?"
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 24360c937d6cdff4e9374eb26aff029a, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1040
+        y: 559
         width: 150
         height: 125
       Type: 2
       Connections: 0f000000
-      Text: "- Skolsk\xF6terskan"
+      Text: "- Vad g\xF6r elevh\xE4lsan?"
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: b55cbd8e82bd97145a5f3d4ed1fb748e, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1012
+        y: 717
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 10000000
+      Text: "- Hur kontaktar jag elevh\xE4lsan?"
+      AnswerOrder: 4
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: a5ee5ad9214401e44bbcda4dbc384ece, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 12
+      ReadableID: "Hur ofta p\xE5 skolan"
+      Rect:
+        serializedVersion: 2
+        x: 1010
+        y: 62
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 94f765d3e1cfb5a4ab24c8767292c5dd, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: "Vilka \xE4r elevh\xE4lsan"
+      Rect:
+        serializedVersion: 2
+        x: 1067
+        y: 212
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 652374ee7b6e48542bec7737490a9364, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: "Din roll p\xE5 skolan"
+      Rect:
+        serializedVersion: 2
+        x: 1198
+        y: 379
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b70a9c439cbb4dc40a4a96680bbbb747, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: "Vad g\xF6r elevh\xE4lsan"
+      Rect:
+        serializedVersion: 2
+        x: 1224
+        y: 547
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: e847132d9ba9fd44cb1dd79d9740bb1d, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: Hur kontaktar jag er
+      Rect:
+        serializedVersion: 2
+        x: 1208
+        y: 705
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 345364d1140aaea4e99a43ff1372f3c5, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 17
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 639
+        y: 87
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 07000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: cd00c54d215c1934f9405fcd107e8c10, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 18
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 742
+        y: 251
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 08000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 469cb727b5d504e4396a6f7514246cda, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 19
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 882
+        y: 407
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 09000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 24360c937d6cdff4e9374eb26aff029a, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 20
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 894
+        y: 589
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 0a000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: b55cbd8e82bd97145a5f3d4ed1fb748e, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 21
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 866
+        y: 742
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 0b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: a5ee5ad9214401e44bbcda4dbc384ece, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 22
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 593
+        y: 742
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1b000000
+      Text: '- Vill du se om intervjun?'
       AnswerOrder: 5
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 63ccbd7f3ee6b5b45bb5076c0224f708, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 429
+        y: 693
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 16000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: cd00c54d215c1934f9405fcd107e8c10, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 469cb727b5d504e4396a6f7514246cda, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 24360c937d6cdff4e9374eb26aff029a, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: b55cbd8e82bd97145a5f3d4ed1fb748e, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: a5ee5ad9214401e44bbcda4dbc384ece, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 590
+        y: 632
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 06000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 436483272}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 430
+        y: 184
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1e000000
+      Text: '- Tillbaka till menyn'
+      AnswerOrder: 6
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1264,20 +1640,20 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 10
+    - ID: 29
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 675
-        y: 893
+        x: 39
+        y: 191
         width: 150
         height: 125
       Type: 3
       Connections: 
       Text: 
       AnswerOrder: 0
-      ConnectorTree: dag
-      ConnectorTreeIndex: 1
+      ConnectorTree: meny
+      ConnectorTreeIndex: 0
       ConnectorNode: Start
       Condition:
         AndGroups: []
@@ -1289,125 +1665,25 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 11
+    - ID: 30
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 683
-        y: 731
+        x: 240
+        y: 209
         width: 150
-        height: 125
-      Type: 3
-      Connections: 
+        height: 75
+      Type: 5
+      Connections: 1d000000
       Text: 
       AnswerOrder: 0
-      ConnectorTree: Robert
-      ConnectorTreeIndex: 2
-      ConnectorNode: Start
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 12
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 696
-        y: 577
-        width: 150
-        height: 125
-      Type: 3
-      Connections: 
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: mats
-      ConnectorTreeIndex: 3
-      ConnectorNode: Start
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 13
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 700
-        y: 437
-        width: 150
-        height: 125
-      Type: 3
-      Connections: 
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: hans
-      ConnectorTreeIndex: 4
-      ConnectorNode: Start
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 14
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 708
-        y: 297
-        width: 150
-        height: 125
-      Type: 3
-      Connections: 
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: jonas o calle
-      ConnectorTreeIndex: 5
-      ConnectorNode: Start
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 15
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 709
-        y: 157
-        width: 150
-        height: 125
-      Type: 3
-      Connections: 
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: "Intervju Skolsk\xF6terska"
-      ConnectorTreeIndex: 6
-      ConnectorNode: Start
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
+      Script: {fileID: 436483272}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -1821,7 +2097,7 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 24
+  - NodeIdAutoIncrement: 25
     Name: dag
     FirstNode: 0
     Nodes:
@@ -2380,7 +2656,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 2
-      Connections: 17000000
+      Connections: 18000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 5
       ConnectorTree: 
@@ -2400,8 +2676,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 533
-        y: 479
+        x: 297
+        y: 478
         width: 150
         height: 125
       Type: 3
@@ -2421,8 +2697,33 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
+    - ID: 24
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 511.50134
+        y: 502.50006
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 17000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 70000098}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 26
+  - NodeIdAutoIncrement: 27
     Name: Robert
     FirstNode: 0
     Nodes:
@@ -2430,7 +2731,7 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 310
+        x: 865
         y: 550
         width: 150
         height: 125
@@ -2455,7 +2756,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 470
+        x: 1025
         y: 550
         width: 150
         height: 125
@@ -2480,7 +2781,7 @@ MonoBehaviour:
       ReadableID: robert
       Rect:
         serializedVersion: 2
-        x: 630
+        x: 1185
         y: 550
         width: 150
         height: 125
@@ -2505,7 +2806,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 447
+        x: 1002
         y: 189
         width: 150
         height: 125
@@ -2530,7 +2831,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 722
+        x: 1277
         y: 194
         width: 150
         height: 125
@@ -2555,7 +2856,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 213
+        x: 768
         y: 198
         width: 150
         height: 125
@@ -2580,7 +2881,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1098
+        x: 1653
         y: 488
         width: 150
         height: 125
@@ -2605,7 +2906,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1080
+        x: 1635
         y: 659
         width: 150
         height: 125
@@ -2630,7 +2931,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 696
+        x: 1251
         y: 893
         width: 150
         height: 125
@@ -2655,7 +2956,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 927
+        x: 1482
         y: 191
         width: 150
         height: 125
@@ -2680,7 +2981,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1314
+        x: 1869
         y: 361
         width: 150
         height: 125
@@ -2705,7 +3006,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1301
+        x: 1856
         y: 734
         width: 150
         height: 125
@@ -2730,7 +3031,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 859
+        x: 1414
         y: 868
         width: 150
         height: 125
@@ -2755,7 +3056,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 539
+        x: 1094
         y: 351
         width: 120
         height: 60
@@ -2788,7 +3089,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 734
+        x: 1289
         y: 340
         width: 120
         height: 60
@@ -2821,7 +3122,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 955
+        x: 1510
         y: 559
         width: 120
         height: 60
@@ -2868,7 +3169,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 920
+        x: 1475
         y: 659
         width: 120
         height: 60
@@ -2915,7 +3216,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 632
+        x: 1187
         y: 802
         width: 120
         height: 60
@@ -2976,7 +3277,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 286
+        x: 841
         y: 954
         width: 150
         height: 125
@@ -3001,7 +3302,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 178
+        x: 733
         y: 788
         width: 150
         height: 75
@@ -3026,7 +3327,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 462
+        x: 1017
         y: 839
         width: 120
         height: 60
@@ -3087,12 +3388,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 327
+        x: 882
         y: 413
         width: 150
         height: 125
       Type: 2
-      Connections: 19000000
+      Connections: 1a000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 6
       ConnectorTree: 
@@ -3112,8 +3413,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 128
-        y: 415
+        x: 422
+        y: 397
         width: 150
         height: 125
       Type: 3
@@ -3133,8 +3434,33 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 662
+        y: 418.5003
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 19000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1573805444}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 28
+  - NodeIdAutoIncrement: 29
     Name: mats
     FirstNode: 0
     Nodes:
@@ -3142,7 +3468,7 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 150
+        x: 625
         y: 610
         width: 150
         height: 125
@@ -3167,7 +3493,7 @@ MonoBehaviour:
       ReadableID: presentation
       Rect:
         serializedVersion: 2
-        x: 334
+        x: 809
         y: 612
         width: 150
         height: 125
@@ -3192,7 +3518,7 @@ MonoBehaviour:
       ReadableID: mats
       Rect:
         serializedVersion: 2
-        x: 544
+        x: 1019
         y: 612
         width: 150
         height: 125
@@ -3217,7 +3543,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 536
+        x: 1011
         y: 190
         width: 150
         height: 125
@@ -3242,7 +3568,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 325
+        x: 800
         y: 145
         width: 150
         height: 125
@@ -3267,7 +3593,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 730
+        x: 1205
         y: 214
         width: 150
         height: 125
@@ -3292,7 +3618,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 904
+        x: 1379
         y: 137
         width: 150
         height: 125
@@ -3317,7 +3643,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1128
+        x: 1603
         y: 386
         width: 150
         height: 125
@@ -3342,7 +3668,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1140
+        x: 1615
         y: 592
         width: 150
         height: 125
@@ -3367,7 +3693,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1078
+        x: 1553
         y: 905
         width: 150
         height: 125
@@ -3392,7 +3718,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 489
+        x: 964
         y: 873
         width: 150
         height: 125
@@ -3417,7 +3743,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 289
+        x: 764
         y: 876
         width: 150
         height: 75
@@ -3442,7 +3768,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1125
+        x: 1600
         y: 245
         width: 150
         height: 125
@@ -3467,7 +3793,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1319
+        x: 1794
         y: 486
         width: 150
         height: 125
@@ -3492,7 +3818,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1101
+        x: 1576
         y: 750
         width: 150
         height: 125
@@ -3517,7 +3843,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 560
+        x: 1035
         y: 342
         width: 120
         height: 60
@@ -3550,7 +3876,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 699
+        x: 1174
         y: 348
         width: 120
         height: 60
@@ -3583,7 +3909,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 990
+        x: 1465
         y: 436
         width: 120
         height: 60
@@ -3630,7 +3956,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 996
+        x: 1471
         y: 635
         width: 120
         height: 60
@@ -3677,7 +4003,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 918
+        x: 1393
         y: 905
         width: 120
         height: 60
@@ -3738,7 +4064,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 689
+        x: 1164
         y: 911
         width: 120
         height: 60
@@ -3799,12 +4125,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 283
+        x: 758
         y: 448
         width: 150
         height: 125
       Type: 2
-      Connections: 1b000000
+      Connections: 1c000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 6
       ConnectorTree: 
@@ -3824,8 +4150,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 104
-        y: 444
+        x: 217
+        y: 434
         width: 150
         height: 125
       Type: 3
@@ -3845,8 +4171,33 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 494
+        y: 455.49982
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 1b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1230870762}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 25
+  - NodeIdAutoIncrement: 26
     Name: hans
     FirstNode: 0
     Nodes:
@@ -3854,7 +4205,7 @@ MonoBehaviour:
       ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 300
+        x: 695
         y: 695
         width: 150
         height: 125
@@ -3879,7 +4230,7 @@ MonoBehaviour:
       ReadableID: presentation
       Rect:
         serializedVersion: 2
-        x: 488
+        x: 883
         y: 693
         width: 150
         height: 125
@@ -3904,7 +4255,7 @@ MonoBehaviour:
       ReadableID: hans
       Rect:
         serializedVersion: 2
-        x: 648
+        x: 1043
         y: 693
         width: 150
         height: 125
@@ -3929,7 +4280,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1123
+        x: 1518
         y: 668
         width: 150
         height: 125
@@ -3954,7 +4305,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1112
+        x: 1507
         y: 817
         width: 150
         height: 125
@@ -3979,7 +4330,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1287
+        x: 1682
         y: 664
         width: 150
         height: 125
@@ -4004,7 +4355,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1282
+        x: 1677
         y: 815
         width: 150
         height: 125
@@ -4029,7 +4380,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 469
+        x: 864
         y: 388
         width: 150
         height: 125
@@ -4054,7 +4405,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 668
+        x: 1063
         y: 385
         width: 150
         height: 125
@@ -4079,7 +4430,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1024
+        x: 1419
         y: 468
         width: 150
         height: 125
@@ -4104,7 +4455,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 470
+        x: 865
         y: 221
         width: 150
         height: 125
@@ -4129,7 +4480,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 670
+        x: 1065
         y: 222
         width: 150
         height: 125
@@ -4154,7 +4505,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1028
+        x: 1423
         y: 302
         width: 150
         height: 125
@@ -4179,7 +4530,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 650
+        x: 1045
         y: 864
         width: 150
         height: 125
@@ -4204,7 +4555,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 473
+        x: 868
         y: 887
         width: 150
         height: 75
@@ -4229,7 +4580,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 979
+        x: 1374
         y: 700
         width: 120
         height: 60
@@ -4262,7 +4613,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 966
+        x: 1361
         y: 838
         width: 120
         height: 60
@@ -4295,7 +4646,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 487
+        x: 882
         y: 542
         width: 120
         height: 60
@@ -4342,7 +4693,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 679
+        x: 1074
         y: 531
         width: 120
         height: 60
@@ -4389,7 +4740,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 886
+        x: 1281
         y: 508
         width: 120
         height: 60
@@ -4450,7 +4801,7 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 812
+        x: 1207
         y: 899
         width: 120
         height: 60
@@ -4511,12 +4862,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 306
-        y: 537
+        x: 669
+        y: 535
         width: 150
         height: 125
       Type: 2
-      Connections: 18000000
+      Connections: 19000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 6
       ConnectorTree: 
@@ -4536,8 +4887,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 115
-        y: 533
+        x: 85
+        y: 534
         width: 150
         height: 125
       Type: 3
@@ -4557,8 +4908,33 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 395
+        y: 544.49927
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 18000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1751805849}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 37
+  - NodeIdAutoIncrement: 38
     Name: jonas o calle
     FirstNode: 0
     Nodes:
@@ -5214,7 +5590,7 @@ MonoBehaviour:
         width: 150
         height: 125
       Type: 2
-      Connections: 24000000
+      Connections: 25000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 6
       ConnectorTree: 
@@ -5234,8 +5610,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 640
-        y: 507
+        x: 375
+        y: 516
         width: 150
         height: 125
       Type: 3
@@ -5255,8 +5631,33 @@ MonoBehaviour:
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
+    - ID: 37
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 601.5005
+        y: 536.499
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 24000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1998655197}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
     LocalizationPrefix: 
-  - NodeIdAutoIncrement: 30
+  - NodeIdAutoIncrement: 31
     Name: "Intervju Skolsk\xF6terska"
     FirstNode: 0
     Nodes:
@@ -5865,12 +6266,12 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 429
-        y: 195
+        x: 430
+        y: 184
         width: 150
         height: 125
       Type: 2
-      Connections: 1d000000
+      Connections: 1e000000
       Text: '- Tillbaka till menyn'
       AnswerOrder: 6
       ConnectorTree: 
@@ -5890,8 +6291,8 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 255
-        y: 196
+        x: 39
+        y: 191
         width: 150
         height: 125
       Type: 3
@@ -5905,6 +6306,31 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 30
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 1d000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 436483272}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []

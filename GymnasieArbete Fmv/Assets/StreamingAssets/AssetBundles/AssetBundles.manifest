@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2861996345
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: subtitles_en
+      Dependencies: {}

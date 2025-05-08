@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spel Showcase.unity
     guid: ad8c003c08b3bb8439be378d93420c87
+  - enabled: 1
+    path: Assets/Scenes/HissScene.unity
+    guid: e18e8e0ea5725bc48b1e24d1c10cf291
   m_configObjects: {}

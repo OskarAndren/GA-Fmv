@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 1201830500}
   - component: {fileID: 1201830499}
   m_Layer: 0
-  m_Name: SwithScene
+  m_Name: SwithFromKaffe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

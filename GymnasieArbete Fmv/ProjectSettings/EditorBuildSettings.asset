@@ -6,21 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Olofs scene.unity
+    guid: 6be9130e255b27b468758cadf2ffcd6e
+  - enabled: 1
     path: Assets/CharlesFMVEngine/Engine/Scenes/Master.unity
     guid: 36f8ccdeb686e96458fa281e10eae985
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KaffeScene.unity
     guid: a804b5d40c5048846a3b726ef70fc42e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hermans scene.unity
     guid: 94ce1b6259629d042ad9c753af4ebe6d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: d75b5ea0a2e53354b9731081c506e182
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Spel Showcase.unity
     guid: ad8c003c08b3bb8439be378d93420c87
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HissScene.unity
     guid: e18e8e0ea5725bc48b1e24d1c10cf291
   m_configObjects: {}

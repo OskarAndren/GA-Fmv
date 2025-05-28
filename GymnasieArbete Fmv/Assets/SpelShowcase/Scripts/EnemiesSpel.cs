@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class EnemiesSpel : MonoBehaviour
 {
@@ -90,5 +91,9 @@ public class EnemiesSpel : MonoBehaviour
             Destroy(other.gameObject);
             rb.velocity += new Vector2(rb.velocity.x, 20);
         }
+    }
+    void OnFMV()
+    {
+        SceneManager.LoadScene(1);
     }
 }

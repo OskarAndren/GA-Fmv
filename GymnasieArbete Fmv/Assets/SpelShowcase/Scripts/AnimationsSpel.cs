@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class AnimationsSpel : MonoBehaviour
 {
@@ -55,5 +56,9 @@ public class AnimationsSpel : MonoBehaviour
         {
             ani.SetBool("isRunning", false);
         }
+    }
+    void OnFMV()
+    {
+        SceneManager.LoadScene(1);
     }
 }

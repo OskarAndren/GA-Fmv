@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -128,5 +129,9 @@ public class PlayerController : MonoBehaviour
             coinsText.text = "Coins: " + coinsPickedUp + "/" + totalCoinsInScene;
             Destroy(other.gameObject);
         }
+    }
+    void OnFMV()
+    {
+        SceneManager.LoadScene(1);
     }
 }

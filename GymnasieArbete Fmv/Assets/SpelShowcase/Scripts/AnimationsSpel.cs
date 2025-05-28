@@ -57,8 +57,5 @@ public class AnimationsSpel : MonoBehaviour
             ani.SetBool("isRunning", false);
         }
     }
-    void OnFMV()
-    {
-        SceneManager.LoadScene(1);
-    }
+    void OnFMV() => SceneManager.LoadScene(0);
 }

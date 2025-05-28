@@ -7,20 +7,19 @@ public class SceneSwitch : MonoBehaviour
 {
     public void SwitchSceneToMovement ()
     {
-        Debug.Log("entered scene switch");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
     public void SwitchSceneToAnimations()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
     public void SwitchSceneToEnemies()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
     }
     public void SwitchSceneToKlarMedSpelet()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
     public void SwitchSceneToMatsIntervju()
     {

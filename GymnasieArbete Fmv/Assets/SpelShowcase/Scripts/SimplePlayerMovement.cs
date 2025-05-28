@@ -34,6 +34,10 @@ public class SimplePlayerMovement : MonoBehaviour
         rb.velocity = playerVelocity;
         Debug.Log(moveInput);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision.collider);
+    }
     void OnFMV()
     {
         SceneManager.LoadScene(1);

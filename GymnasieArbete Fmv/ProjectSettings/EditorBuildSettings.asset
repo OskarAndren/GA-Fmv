@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Olofs scene.unity
     guid: 6be9130e255b27b468758cadf2ffcd6e
   - enabled: 1
@@ -21,9 +21,21 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: d75b5ea0a2e53354b9731081c506e182
   - enabled: 0
-    path: Assets/Scenes/Showcase/Spel Showcase.unity
-    guid: ad8c003c08b3bb8439be378d93420c87
-  - enabled: 0
     path: Assets/Scenes/HissScene.unity
     guid: e18e8e0ea5725bc48b1e24d1c10cf291
+  - enabled: 1
+    path: Assets/Scenes/Showcase/ShowcaseVideos.unity
+    guid: 578f76c6fe9a65d4fb7cc91e8793eac2
+  - enabled: 1
+    path: Assets/Scenes/Showcase/Movement.unity
+    guid: d4b44dfd4d0fa5f4e88d8d24bec61628
+  - enabled: 1
+    path: Assets/Scenes/Showcase/Animations.unity
+    guid: 78b6001d6d786424b8b7fe4e24baeec2
+  - enabled: 1
+    path: Assets/Scenes/Showcase/Enemies.unity
+    guid: 24fafc08044ae954687c58aeec4d058d
+  - enabled: 1
+    path: Assets/Scenes/Showcase/Spel Showcase.unity
+    guid: ad8c003c08b3bb8439be378d93420c87
   m_configObjects: {}

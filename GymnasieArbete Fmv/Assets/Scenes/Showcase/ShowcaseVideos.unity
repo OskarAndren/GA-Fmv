@@ -1,0 +1,3652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &345620731
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1650713343246574, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_Name
+      value: SceneCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220633411268160, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c6320f7cb5a54c47a6ace1232415e0c, type: 3}
+--- !u!1 &548343589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548343591}
+  - component: {fileID: 548343590}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &548343590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548343589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5e5dc839852084db2f9d71411ceb75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogues: {fileID: 817001627}
+  OnDialogStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogResume:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &548343591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548343589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &817001626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817001628}
+  - component: {fileID: 817001627}
+  m_Layer: 0
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &817001627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817001626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10fe5d6867c1b5449b4bf163fcd72ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentTree:
+    NodeIdAutoIncrement: 63
+    Name: Spel Showcase
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 475
+        y: 1565
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 680.6
+        y: 1569.8
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0300000004000000050000001700000018000000190000001a0000001b0000001c0000001d000000
+      Text: '-'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 922.2001
+        y: 648
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 09000000
+      Text: Intro
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 919.79987
+        y: 976.19995
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: Sprite + Script
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 921.3999
+        y: 1273.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: Movement
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1107
+        y: 973.7999
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0e000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: Spel Showcase
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 1fa0cd96ead33c345921a4785f486eb6, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1116.5999
+        y: 646.5999
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0a000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: ea1672962646f8f4999c82d0d18651f2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1307
+        y: 647.39996
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0b0000000d000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1505.3999
+        y: 575.39996
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1503.7999
+        y: 732.1999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1286.2001
+        y: 963.3999
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0f00000010000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1503
+        y: 897.7999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Many
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1501.4
+        y: 1031.3999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 19
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1091.7999
+        y: 1271.4
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 14000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: db83d5d9b489a034cb11240fa6d50a1e, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 20
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1293.4
+        y: 1263.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 150000001600000035000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 21
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1333.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1e000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 22
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1191.4
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 916.6
+        y: 1560.2001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1e000000
+      Text: Tilemap
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 24
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 903
+        y: 1815.3998
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 22000000
+      Text: Animations
+      AnswerOrder: 4
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 901.39996
+        y: 2117
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 26000000
+      Text: Enemies
+      AnswerOrder: 5
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 873.3999
+        y: 2395.4001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2a000000
+      Text: Coins + Ui
+      AnswerOrder: 6
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 814.2
+        y: 2663.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2e000000
+      Text: Came over/Win screen
+      AnswerOrder: 7
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 795.8001
+        y: 2875
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 32000000
+      Text: Klar
+      AnswerOrder: 8
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 29
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 536.6
+        y: 1789.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3e000000
+      Text: Tillbaka
+      AnswerOrder: 9
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 30
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1106.2
+        y: 1561.0001
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 1f000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 76cbe78d2ddcb294d92530a63fc771d2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 31
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1291.8
+        y: 1560.2001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 2000000021000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 32
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1488.6001
+        y: 1621.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 22000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 33
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1494.2
+        y: 1480.2001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 34
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1097.4
+        y: 1820.9998
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 23000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b2a11fdaf7e12164d9920470acf293b8, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 35
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1283.7999
+        y: 1825.7999
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 240000002500000036000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 36
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1486.2
+        y: 1766.5999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 37
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1485.3999
+        y: 1907.3999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 26000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 38
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1095.7999
+        y: 2109
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 27000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8f146e197d8d70c4dbc9fec84cd214a1, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 39
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1275.8
+        y: 2116.2
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 280000002900000037000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 40
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1471.8
+        y: 2045.7999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 41
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1465.3999
+        y: 2182.5999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2a000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 42
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1052.5999
+        y: 2397.8
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 2b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d6d139784737b954fb4d9fb7279a843c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 43
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1246.2
+        y: 2403.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 2c0000002d000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 44
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1465.3999
+        y: 2323.4001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 45
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1467.8
+        y: 2461
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2e000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 46
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1050.2001
+        y: 2669.0005
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 2f000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d7cf67a226eaef04c9719b21529416b2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 47
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1248.6
+        y: 2667.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 3000000031000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 48
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1463
+        y: 2610.6003
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 49
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2761.0005
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 32000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 50
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 955.8001
+        y: 2875
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 33000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8d2b1209d61adae4285ad6fe5436cb6d, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 51
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1114.2002
+        y: 2873.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 3400000038000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 52
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1272.6001
+        y: 2835.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 53
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1721.4
+        y: 1265.8002
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3b000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: c792648433157614b93f1b2ecde2f773, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 54
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1688.5999
+        y: 1796.2
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3a000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 55
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1697.3999
+        y: 2115.4
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3c000000
+      Text: Testa spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 56
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1661.4001
+        y: 2876.6
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3d000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 58
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1888.5999
+        y: 1820.2
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1783385490}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 59
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1929.4001
+        y: 1292.2001
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 972707444}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 60
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1896.5999
+        y: 2139.4001
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1457566171}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 61
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1872.6001
+        y: 2903
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1321198940}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 62
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 314.8
+        y: 1816.2002
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1412992266}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  Trees:
+  - NodeIdAutoIncrement: 63
+    Name: Spel Showcase
+    FirstNode: 0
+    Nodes:
+    - ID: 0
+      ReadableID: Start
+      Rect:
+        serializedVersion: 2
+        x: 475
+        y: 1565
+        width: 150
+        height: 125
+      Type: 7
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 2
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 680.6
+        y: 1569.8
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0300000004000000050000001700000018000000190000001a0000001b0000001c0000001d000000
+      Text: '-'
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 3
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 922.2001
+        y: 648
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 09000000
+      Text: Intro
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 4
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 919.79987
+        y: 976.19995
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: Sprite + Script
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 921.3999
+        y: 1273.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: Movement
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 7
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1107
+        y: 973.7999
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0e000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: Spel Showcase
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 1fa0cd96ead33c345921a4785f486eb6, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 9
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1116.5999
+        y: 646.5999
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 0a000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: ea1672962646f8f4999c82d0d18651f2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 10
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1307
+        y: 647.39996
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0b0000000d000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 11
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1505.3999
+        y: 575.39996
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 13
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1503.7999
+        y: 732.1999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 07000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 14
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1286.2001
+        y: 963.3999
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 0f00000010000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 15
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1503
+        y: 897.7999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Many
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 16
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1501.4
+        y: 1031.3999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 13000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 19
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1091.7999
+        y: 1271.4
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 14000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: db83d5d9b489a034cb11240fa6d50a1e, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 20
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1293.4
+        y: 1263.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 150000001600000035000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 21
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1333.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1e000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 22
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1191.4
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 23
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 916.6
+        y: 1560.2001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 1e000000
+      Text: Tilemap
+      AnswerOrder: 3
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 24
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 903
+        y: 1815.3998
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 22000000
+      Text: Animations
+      AnswerOrder: 4
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 25
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 901.39996
+        y: 2117
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 26000000
+      Text: Enemies
+      AnswerOrder: 5
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 26
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 873.3999
+        y: 2395.4001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2a000000
+      Text: Coins + Ui
+      AnswerOrder: 6
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 27
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 814.2
+        y: 2663.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2e000000
+      Text: Came over/Win screen
+      AnswerOrder: 7
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 28
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 795.8001
+        y: 2875
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 32000000
+      Text: Klar
+      AnswerOrder: 8
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 29
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 536.6
+        y: 1789.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3e000000
+      Text: Tillbaka
+      AnswerOrder: 9
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 30
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1106.2
+        y: 1561.0001
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 1f000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 76cbe78d2ddcb294d92530a63fc771d2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 31
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1291.8
+        y: 1560.2001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 2000000021000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 32
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1488.6001
+        y: 1621.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 22000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 33
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1494.2
+        y: 1480.2001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 34
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1097.4
+        y: 1820.9998
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 23000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: b2a11fdaf7e12164d9920470acf293b8, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 35
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1283.7999
+        y: 1825.7999
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 240000002500000036000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 36
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1486.2
+        y: 1766.5999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 37
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1485.3999
+        y: 1907.3999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 26000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 38
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1095.7999
+        y: 2109
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 27000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8f146e197d8d70c4dbc9fec84cd214a1, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 39
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1275.8
+        y: 2116.2
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 280000002900000037000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 40
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1471.8
+        y: 2045.7999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 2
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 41
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1465.3999
+        y: 2182.5999
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2a000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 42
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1052.5999
+        y: 2397.8
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 2b000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d6d139784737b954fb4d9fb7279a843c, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 43
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1246.2
+        y: 2403.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 2c0000002d000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 44
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1465.3999
+        y: 2323.4001
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 45
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1467.8
+        y: 2461
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 2e000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 46
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1050.2001
+        y: 2669.0005
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 2f000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: d7cf67a226eaef04c9719b21529416b2, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 47
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1248.6
+        y: 2667.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 3000000031000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 48
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1463
+        y: 2610.6003
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 49
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2761.0005
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 32000000
+      Text: "N\xE4sta video"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 50
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 955.8001
+        y: 2875
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 33000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 32900000, guid: 8d2b1209d61adae4285ad6fe5436cb6d, type: 3}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 51
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1114.2002
+        y: 2873.4001
+        width: 150
+        height: 125
+      Type: 1
+      Connections: 3400000038000000
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 52
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1272.6001
+        y: 2835.8
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 02000000
+      Text: Meny
+      AnswerOrder: 1
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 53
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1721.4
+        y: 1265.8002
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3b000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: c792648433157614b93f1b2ecde2f773, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 54
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1688.5999
+        y: 1796.2
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3a000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 55
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1697.3999
+        y: 2115.4
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3c000000
+      Text: Testa spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 56
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1661.4001
+        y: 2876.6
+        width: 150
+        height: 125
+      Type: 2
+      Connections: 3d000000
+      Text: Testa Spel
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 58
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1888.5999
+        y: 1820.2
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1783385490}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 59
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1929.4001
+        y: 1292.2001
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 972707444}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 60
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1896.5999
+        y: 2139.4001
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1457566171}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 61
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 1872.6001
+        y: 2903
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1321198940}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 62
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 314.8
+        y: 1816.2002
+        width: 150
+        height: 75
+      Type: 5
+      Connections: 
+      Text: 
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 1412992266}
+      VisitedVariable: {fileID: 0}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    LocalizationPrefix: 
+  TextMode: 0
+--- !u!4 &817001628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817001626}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &972707443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972707445}
+  - component: {fileID: 972707444}
+  m_Layer: 0
+  m_Name: ScriptMovement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &972707444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972707443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229662410}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchSceneToMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &972707445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972707443}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.350992, y: -5.7366166, z: 0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059267154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1229662409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229662411}
+  - component: {fileID: 1229662410}
+  m_Layer: 0
+  m_Name: SceneSwitcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1229662410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229662409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65edf8e73eb5eb7429a8ba5d9096588c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1229662411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229662409}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.350992, y: 5.7366166, z: -0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1259183245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259183247}
+  - component: {fileID: 1259183246}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1259183246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259183245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2145d52d2f9e1dc4cb6d3aa6bd24e08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnScreenLoad:
+    m_PersistentCalls:
+      m_Calls: []
+  OnScreenShow:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 548343590}
+        m_TargetAssemblyTypeName: CharlesEngine.DialogManager, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnScreenHide:
+    m_PersistentCalls:
+      m_Calls: []
+  FadeInOnStart: 1
+  PauseMenuEnabled: 1
+  UntrackedScene: 0
+--- !u!4 &1259183247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259183245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1321198937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321198938}
+  - component: {fileID: 1321198940}
+  - component: {fileID: 1321198939}
+  m_Layer: 0
+  m_Name: ScriptKlar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1321198938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321198937}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.350992, y: -5.7366166, z: 0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059267154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321198939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321198937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229662410}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchSceneToKlarMedSpelet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1321198940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321198937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1412992263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412992264}
+  - component: {fileID: 1412992266}
+  - component: {fileID: 1412992265}
+  m_Layer: 0
+  m_Name: ScriptMats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412992264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412992263}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.350992, y: -5.7366166, z: 0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059267154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412992265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412992263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229662410}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchSceneToMatsIntervju
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1412992266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412992263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1457566168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457566169}
+  - component: {fileID: 1457566171}
+  - component: {fileID: 1457566170}
+  m_Layer: 0
+  m_Name: ScriptEnemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457566169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457566168}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.350992, y: -5.7366166, z: 0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059267154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457566170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457566168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229662410}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchSceneToEnemies
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1457566171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457566168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1783385487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1783385488}
+  - component: {fileID: 1783385490}
+  - component: {fileID: 1783385489}
+  m_Layer: 0
+  m_Name: ScriptAnimations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1783385488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783385487}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.350992, y: -5.7366166, z: 0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059267154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1783385489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783385487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ff3a10dd569d044a87ce144561aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229662410}
+        m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
+        m_MethodName: SwitchSceneToAnimations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1783385490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783385487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a850e18db914ffc468f8a89fc3bfa85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1786179383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786179386}
+  - component: {fileID: 1786179385}
+  - component: {fileID: 1786179384}
+  m_Layer: 0
+  m_Name: SceneRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1786179384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786179383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24aa39f25f4a9e47adcf6120ae6e889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1786179385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786179383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2cdbf733a30ce4eb2179623c90f32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1786179386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786179383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2059267153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059267154}
+  m_Layer: 0
+  m_Name: Scripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2059267154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059267153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.350992, y: 5.7366166, z: -0.13391858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 972707445}
+  - {fileID: 1783385488}
+  - {fileID: 1457566169}
+  - {fileID: 1321198938}
+  - {fileID: 1412992264}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 345620731}
+  - {fileID: 1259183247}
+  - {fileID: 548343591}
+  - {fileID: 817001628}
+  - {fileID: 1786179386}
+  - {fileID: 1229662411}
+  - {fileID: 2059267154}

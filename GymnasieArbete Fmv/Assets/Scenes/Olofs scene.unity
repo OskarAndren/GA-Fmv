@@ -1063,16 +1063,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentTree:
-    NodeIdAutoIncrement: 62
-    Name: a huset
+    NodeIdAutoIncrement: 31
+    Name: mats
     FirstNode: 0
     Nodes:
     - ID: 0
-      ReadableID: start
+      ReadableID: Start
       Rect:
         serializedVersion: 2
-        x: 765
-        y: 1510
+        x: 625
+        y: 610
         width: 150
         height: 125
       Type: 7
@@ -1093,11 +1093,11 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 1
-      ReadableID: "Ing\xE5ng trappa"
+      ReadableID: MatsPresentation
       Rect:
         serializedVersion: 2
-        x: 965
-        y: 1510
+        x: 809
+        y: 612
         width: 150
         height: 125
       Type: 0
@@ -1112,21 +1112,21 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 32b4f053a155faf4995289f10554d420, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 2
-      ReadableID: "vilken_v\xE5ning_A"
+      ReadableID: mats
       Rect:
         serializedVersion: 2
-        x: 1145
-        y: 1510
+        x: 1019
+        y: 612
         width: 150
         height: 125
       Type: 1
-      Connections: 0300000004000000
+      Connections: 1300000014000000150000001600000017000000190000001a0000001d000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1146,13 +1146,38 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1179
-        y: 1943
+        x: 1011
+        y: 190
         width: 150
         height: 125
       Type: 2
       Connections: 05000000
-      Text: "V\xE5ning 2"
+      Text: "- Varf\xF6r ska man s\xF6ka LBS?"
+      AnswerOrder: 0
+      ConnectorTree: 
+      ConnectorTreeIndex: 0
+      ConnectorNode: 
+      Condition:
+        AndGroups: []
+        Custom: {fileID: 0}
+      Script: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+      Video: {fileID: 0}
+      TimedEvents: []
+      SwitchConditions: []
+      Sprite: {fileID: 0}
+      Maximized: 0
+    - ID: 5
+      ReadableID: 
+      Rect:
+        serializedVersion: 2
+        x: 800
+        y: 145
+        width: 150
+        height: 125
+      Type: 0
+      Connections: 02000000
+      Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -1162,22 +1187,22 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: e8b4420d18d75a0449b06c2746dd8951, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 4
+    - ID: 7
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1165
-        y: 710
+        x: 1205
+        y: 214
         width: 150
         height: 125
       Type: 2
-      Connections: 22000000
-      Text: "- V\xE5ning 3"
+      Connections: 08000000
+      Text: "- Vad l\xE4r man sig?"
       AnswerOrder: 1
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -1186,97 +1211,22 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 5
-      ReadableID: Korridor_A_2
-      Rect:
-        serializedVersion: 2
-        x: 1178
-        y: 2089
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 0c000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 6
-      ReadableID: A3/Bild studio
-      Rect:
-        serializedVersion: 2
-        x: 1798
-        y: 2623
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 16000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 7
-      ReadableID: A4
-      Rect:
-        serializedVersion: 2
-        x: 1606
-        y: 2616
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 18000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 8
-      ReadableID: A5
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1401
-        y: 2614
+        x: 1379
+        y: 137
         width: 150
         height: 125
       Type: 0
-      Connections: 1a000000
+      Connections: 02000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1287,23 +1237,23 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 81c7347f5c70b7243ae1076195d932ae, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 9
-      ReadableID: A6
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1195
-        y: 2597
+        x: 1603
+        y: 386
         width: 150
         height: 125
-      Type: 0
-      Connections: 1c000000
-      Text: 
-      AnswerOrder: 0
+      Type: 2
+      Connections: 0f000000
+      Text: "- Vad beh\xF6ver man kunna?"
+      AnswerOrder: 2
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1311,24 +1261,24 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 45dc9656b86637a42bcaf30534d1b22e, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 10
-      ReadableID: A7
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 996
-        y: 2607
+        x: 1615
+        y: 592
         width: 150
         height: 125
-      Type: 0
-      Connections: 1e000000
-      Text: 
-      AnswerOrder: 0
+      Type: 2
+      Connections: 10000000
+      Text: "- Vad g\xF6r man p\xE5 linjen?"
+      AnswerOrder: 3
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1336,24 +1286,24 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: cd45f8add12ef7c48b96f7ed515eb4e6, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 11
-      ReadableID: A8
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 785
-        y: 2598
+        x: 1553
+        y: 905
         width: 150
         height: 125
-      Type: 0
-      Connections: 20000000
-      Text: 
-      AnswerOrder: 0
+      Type: 2
+      Connections: 11000000
+      Text: "- Vad kan man g\xF6ra efter gymnasiet?"
+      AnswerOrder: 4
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1361,48 +1311,23 @@ MonoBehaviour:
         AndGroups: []
         Custom: {fileID: 0}
       Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
+      VisitedVariable: {fileID: 11400000, guid: 2c247a1c8ed7ddc4bac99b20b95ce675, type: 2}
       Video: {fileID: 0}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 12
-      ReadableID: korridor_fork_A2
-      Rect:
-        serializedVersion: 2
-        x: 1176
-        y: 2235
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 0d0000000e0000000f00000010000000110000001200000014000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 13
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 804
-        y: 2436
+        x: 964
+        y: 873
         width: 150
         height: 125
       Type: 2
-      Connections: 0b000000
-      Text: "- G\xE5 till A8"
+      Connections: 0e000000
+      Text: '- Vill du se om intervjun?'
       AnswerOrder: 5
       ConnectorTree: 
       ConnectorTreeIndex: 0
@@ -1421,21 +1346,21 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1000
-        y: 2448
+        x: 764
+        y: 876
         width: 150
-        height: 125
-      Type: 2
-      Connections: 0a000000
-      Text: "- G\xE5 till A7"
-      AnswerOrder: 4
+        height: 75
+      Type: 5
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
-      Script: {fileID: 0}
+      Script: {fileID: 1230870762}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -1446,14 +1371,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1205
-        y: 2446
+        x: 1600
+        y: 245
         width: 150
         height: 125
-      Type: 2
-      Connections: 09000000
-      Text: "- G\xE5 till A6"
-      AnswerOrder: 3
+      Type: 0
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1462,7 +1387,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: 48a7f199e4fb33a48a27e417bef71494, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -1471,14 +1396,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1400
-        y: 2466
+        x: 1794
+        y: 486
         width: 150
         height: 125
-      Type: 2
-      Connections: 08000000
-      Text: "- G\xE5 till A5"
-      AnswerOrder: 2
+      Type: 0
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1487,7 +1412,7 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: cff4438ca45f1094bbf7f4d952ce0dd3, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
@@ -1496,14 +1421,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1594
-        y: 2477
+        x: 1576
+        y: 750
         width: 150
         height: 125
-      Type: 2
-      Connections: 07000000
-      Text: "- G\xE5 till A4"
-      AnswerOrder: 1
+      Type: 0
+      Connections: 02000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1512,28 +1437,36 @@ MonoBehaviour:
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
+      Video: {fileID: 32900000, guid: ea7025c4ed2ea3846927d3d768b57cf5, type: 3}
       TimedEvents: []
       SwitchConditions: []
       Sprite: {fileID: 0}
       Maximized: 0
-    - ID: 18
+    - ID: 19
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1790
-        y: 2485
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 06000000
-      Text: "- G\xE5 till A3"
+        x: 1035
+        y: 342
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 03000000
+      Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1546,19 +1479,27 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1468
-        y: 1774
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 15000000
-      Text: '- Trappa upp'
-      AnswerOrder: 6
+        x: 1174
+        y: 348
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 07000000
+      Text: 
+      AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1568,22 +1509,44 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 21
-      ReadableID: Trappa upp/rosa rummet
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1729
-        y: 1748
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 38000000
+        x: 1465
+        y: 436
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 09000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 45dc9656b86637a42bcaf30534d1b22e, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1593,22 +1556,44 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 22
-      ReadableID: A3_fork
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1819
-        y: 2754
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 17000000
+        x: 1471
+        y: 635
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 0a000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: cd45f8add12ef7c48b96f7ed515eb4e6, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1621,44 +1606,55 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1823
-        y: 2902
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 24
-      ReadableID: A4_fork
-      Rect:
-        serializedVersion: 2
-        x: 1618
-        y: 2756
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 19000000
+        x: 1393
+        y: 905
+        width: 120
+        height: 60
+      Type: 4
+      Connections: 0b000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 45dc9656b86637a42bcaf30534d1b22e, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: cd45f8add12ef7c48b96f7ed515eb4e6, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 2c247a1c8ed7ddc4bac99b20b95ce675, type: 2}
+            Not: 1
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1671,19 +1667,55 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1633
-        y: 2915
-        width: 150
-        height: 125
-      Type: 2
+        x: 1164
+        y: 911
+        width: 120
+        height: 60
+      Type: 4
       Connections: 0c000000
-      Text: "- G\xE5 ut"
+      Text: 
       AnswerOrder: 0
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
       Condition:
-        AndGroups: []
+        AndGroups:
+        - Expressions:
+          - Variable: {fileID: 11400000, guid: 70a136942e9312842a83acce1cc83871, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 60fd59abceaa49043b32b1b75b9c71d2, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 45dc9656b86637a42bcaf30534d1b22e, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: cd45f8add12ef7c48b96f7ed515eb4e6, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
+          - Variable: {fileID: 11400000, guid: 2c247a1c8ed7ddc4bac99b20b95ce675, type: 2}
+            Not: 0
+            Comparator: 0
+            ComparisonValue: 0
+            CompareToAnotherVariable: 0
+            ComparisonVarValue: {fileID: 0}
+            StringSetContainsValue: 
         Custom: {fileID: 0}
       Script: {fileID: 0}
       VisitedVariable: {fileID: 0}
@@ -1693,17 +1725,17 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 26
-      ReadableID: A5_fork
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1401
-        y: 2752
+        x: 758
+        y: 448
         width: 150
         height: 125
-      Type: 1
-      Connections: 1b000000
-      Text: 
-      AnswerOrder: 0
+      Type: 2
+      Connections: 1c000000
+      Text: '- Tillbaka till menyn'
+      AnswerOrder: 6
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1721,17 +1753,17 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1401
-        y: 2913
+        x: 217
+        y: 434
         width: 150
         height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: "- G\xE5 ut"
+      Type: 3
+      Connections: 
+      Text: 
       AnswerOrder: 0
-      ConnectorTree: 
+      ConnectorTree: meny
       ConnectorTreeIndex: 0
-      ConnectorNode: 
+      ConnectorNode: Start
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
@@ -1743,15 +1775,15 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 28
-      ReadableID: A6_fork
+      ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1192
-        y: 2744
+        x: 494
+        y: 455.49982
         width: 150
-        height: 125
-      Type: 1
-      Connections: 1d000000
+        height: 75
+      Type: 5
+      Connections: 1b000000
       Text: 
       AnswerOrder: 0
       ConnectorTree: 
@@ -1760,7 +1792,7 @@ MonoBehaviour:
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
-      Script: {fileID: 0}
+      Script: {fileID: 1230870762}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -1771,14 +1803,14 @@ MonoBehaviour:
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 1207
-        y: 2913
+        x: 1286
+        y: 1048
         width: 150
         height: 125
       Type: 2
-      Connections: 0c000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
+      Connections: 1e000000
+      Text: -Vill du se hur ett spel utvecklas?
+      AnswerOrder: 7
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1793,189 +1825,14 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 30
-      ReadableID: A7_fork
-      Rect:
-        serializedVersion: 2
-        x: 987
-        y: 2750
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 1f000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 31
       ReadableID: 
       Rect:
         serializedVersion: 2
-        x: 989
-        y: 2921
+        x: 1493
+        y: 1074
         width: 150
-        height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 32
-      ReadableID: A8_fork
-      Rect:
-        serializedVersion: 2
-        x: 775
-        y: 2748
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 21000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 33
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 781
-        y: 2907
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 34
-      ReadableID: till lobby
-      Rect:
-        serializedVersion: 2
-        x: 1376
-        y: 704
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 23000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 35
-      ReadableID: lobby fork
-      Rect:
-        serializedVersion: 2
-        x: 1575
-        y: 713
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 240000002a0000002b00000032000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 36
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1780
-        y: 714
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 29000000
-      Text: '- Kaffemaskin'
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 41
-      ReadableID: hermans kaffemaskin
-      Rect:
-        serializedVersion: 2
-        x: 1780
-        y: 863
-        width: 150
-        height: 125
-      Type: 0
+        height: 75
+      Type: 5
       Connections: 
       Text: 
       AnswerOrder: 0
@@ -1985,507 +1842,7 @@ MonoBehaviour:
       Condition:
         AndGroups: []
         Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 42
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1774
-        y: 569
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 2c000000
-      Text: '- A1'
-      AnswerOrder: 1
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 43
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1579
-        y: 525
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 2d000000
-      Text: '- A2'
-      AnswerOrder: 2
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 44
-      ReadableID: A1
-      Rect:
-        serializedVersion: 2
-        x: 1945
-        y: 565
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 30000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 45
-      ReadableID: A2
-      Rect:
-        serializedVersion: 2
-        x: 1580
-        y: 374
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 2e000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 46
-      ReadableID: A2_fork
-      Rect:
-        serializedVersion: 2
-        x: 1581
-        y: 219
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 2f000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 47
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1581
-        y: 66
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 23000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 48
-      ReadableID: A1_fork
-      Rect:
-        serializedVersion: 2
-        x: 2105
-        y: 565
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 31000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 49
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2265
-        y: 565
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 23000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 50
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1581
-        y: 1141
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 33000000
-      Text: "- L\xE4rarrummen/ rosa rummet"
-      AnswerOrder: 3
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 51
-      ReadableID: "Mot_L\xE4rarrummet"
-      Rect:
-        serializedVersion: 2
-        x: 1795
-        y: 1150
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 34000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 52
-      ReadableID: "L\xE4rarrummet_fork"
-      Rect:
-        serializedVersion: 2
-        x: 1987
-        y: 1146
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 3500000036000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 53
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2261
-        y: 1149
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 3b000000
-      Text: "- G\xE5 in i l\xE4rarrummet"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 54
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 1992
-        y: 1334
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 37000000
-      Text: '- Rosa rummet'
-      AnswerOrder: 1
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 55
-      ReadableID: rosa rummet
-      Rect:
-        serializedVersion: 2
-        x: 1994
-        y: 1482
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 38000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 56
-      ReadableID: rosa rummet fork
-      Rect:
-        serializedVersion: 2
-        x: 2178
-        y: 1482
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 390000003a000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 57
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2180
-        y: 1657
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 0c000000
-      Text: '- trappa ner'
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 58
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2387
-        y: 1484
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 34000000
-      Text: "- G\xE5 tillbaka till l\xE4rarrummet"
-      AnswerOrder: 1
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 59
-      ReadableID: "l\xE4rarrummet"
-      Rect:
-        serializedVersion: 2
-        x: 2421
-        y: 1149
-        width: 150
-        height: 125
-      Type: 0
-      Connections: 3c000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 60
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2581
-        y: 1149
-        width: 150
-        height: 125
-      Type: 1
-      Connections: 3d000000
-      Text: 
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
-      VisitedVariable: {fileID: 0}
-      Video: {fileID: 0}
-      TimedEvents: []
-      SwitchConditions: []
-      Sprite: {fileID: 0}
-      Maximized: 0
-    - ID: 61
-      ReadableID: 
-      Rect:
-        serializedVersion: 2
-        x: 2772
-        y: 1151
-        width: 150
-        height: 125
-      Type: 2
-      Connections: 34000000
-      Text: "- G\xE5 ut"
-      AnswerOrder: 0
-      ConnectorTree: 
-      ConnectorTreeIndex: 0
-      ConnectorNode: 
-      Condition:
-        AndGroups: []
-        Custom: {fileID: 0}
-      Script: {fileID: 0}
+      Script: {fileID: 721429220}
       VisitedVariable: {fileID: 0}
       Video: {fileID: 0}
       TimedEvents: []
@@ -5264,7 +4621,7 @@ MonoBehaviour:
       Sprite: {fileID: 0}
       Maximized: 0
     - ID: 1
-      ReadableID: presentation
+      ReadableID: MatsPresentation
       Rect:
         serializedVersion: 2
         x: 809

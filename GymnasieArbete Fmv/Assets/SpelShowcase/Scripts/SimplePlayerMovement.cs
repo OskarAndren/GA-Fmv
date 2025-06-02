@@ -38,8 +38,4 @@ public class SimplePlayerMovement : MonoBehaviour
     {
         Debug.Log(collision.collider);
     }
-    void OnFMV()
-    {
-        SceneManager.LoadScene(1);
-    }
 }

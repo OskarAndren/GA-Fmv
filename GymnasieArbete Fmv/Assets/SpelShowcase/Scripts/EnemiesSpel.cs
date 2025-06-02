@@ -92,8 +92,4 @@ public class EnemiesSpel : MonoBehaviour
             rb.velocity += new Vector2(rb.velocity.x, 20);
         }
     }
-    void OnFMV()
-    {
-        SceneManager.LoadScene(1);
-    }
 }

@@ -1328,7 +1328,7 @@ MonoBehaviour:
       Type: 2
       Connections: 0e000000
       Text: '- Vill du se om intervjun?'
-      AnswerOrder: 5
+      AnswerOrder: 6
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1735,7 +1735,7 @@ MonoBehaviour:
       Type: 2
       Connections: 1c000000
       Text: '- Tillbaka till menyn'
-      AnswerOrder: 6
+      AnswerOrder: 7
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -1810,7 +1810,7 @@ MonoBehaviour:
       Type: 2
       Connections: 1e000000
       Text: -Vill du se hur ett spel utvecklas?
-      AnswerOrder: 7
+      AnswerOrder: 5
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -4856,7 +4856,7 @@ MonoBehaviour:
       Type: 2
       Connections: 0e000000
       Text: '- Vill du se om intervjun?'
-      AnswerOrder: 5
+      AnswerOrder: 6
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -5263,7 +5263,7 @@ MonoBehaviour:
       Type: 2
       Connections: 1c000000
       Text: '- Tillbaka till menyn'
-      AnswerOrder: 6
+      AnswerOrder: 7
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
@@ -5338,7 +5338,7 @@ MonoBehaviour:
       Type: 2
       Connections: 1e000000
       Text: -Vill du se hur ett spel utvecklas?
-      AnswerOrder: 7
+      AnswerOrder: 5
       ConnectorTree: 
       ConnectorTreeIndex: 0
       ConnectorNode: 
